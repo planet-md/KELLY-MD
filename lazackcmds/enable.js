@@ -227,7 +227,7 @@ chat.antiLink2 = isEnable
       if (!/[01]/.test(command))
         return m.reply(`
 ≡ List of options
-
+PRINCE BOT MD
 ◈──『 *ADMIN*』───⳹
 ⛊ welcome
 ⛊ antilink
@@ -259,7 +259,7 @@ chat.antiLink2 = isEnable
 
   m.reply(
     `
-✅ *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
+🔥 *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
 `.trim()
   )
 }
