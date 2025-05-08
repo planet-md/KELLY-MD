@@ -36,7 +36,7 @@
 
 **MADE IN TANZANIA BY LOFT XMD**
  
- **Thanks** **PRINCE 🤴** AS ** ABBY KIDDY**
+ 
  -------------------------------
 
  📱**CONTACT LOFT-XMD TEAM**
