@@ -1,22 +1,16 @@
-  
-  ⚡**LOFT-XMD**⚡ 
-
-![lazack](![835256da-7ac1-4548-ae35-ca4559f67a6d](https://github.com/user-attachments/assets/74313445-430f-405b-9a4e-a638200bf157)
-)
-
-
-
 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=SAFE+TO+HEROKU+BOT+MADE+BY+LOFT+XMD" alt="Typing SVG" /></a>
 </p>
 
 ----------------------------------
- **FORK & STAR THE REPO**
-<a href="https://github.com/loftxmd23/LOFT-XMD-S24/fork">![Screenshot_20250508-001636]
----
-  
-   **GET SESSION ID**
+
+ 
+ ![835256da-7ac1-4548-ae35-ca4559f67a6d](https://github.com/user-attachments/assets/3da247b6-b77c-4371-8b35-bbc160366e88)
+
+ 
+ 
+ **GET SESSION ID**
 <a href="https://silver-carly-54.tiiny.site/">
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=render" width="230" height="38.45"/>
 </a>
