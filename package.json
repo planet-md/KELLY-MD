@@ -1,6 +1,6 @@
 
 {
-    "name": "PRINCE BOT MD",
+    "name": "LOFT XMD s24",
     "version": "2.1.0",
     "description": "Advanced WhatsApp",
     "main": "LazackEngage.js",
@@ -29,16 +29,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/PRINCETECH20/Prince-bot-md-Device",
+    "homepage": "https://github.com/LOFTXMD23/Loft-xmd-s24-Device",
     "author": {
-        "name": "PRINCE"
+        "name": "LOFT"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/PRINCETECH20/Prince-bot-md-Device.git"
+        "url": "git+https://github.com/LOFTXMD23/Loft-xmd-s24-Device.git"
     },
     "bugs": {
-        "url": "https://github.com/PRINCETECH20/Prince-bot-md-Device/issues"
+        "url": "https://github.com/LOFTXMD23/Loft-xmd-s24-Device/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
