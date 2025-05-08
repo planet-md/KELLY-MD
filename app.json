@@ -1,21 +1,21 @@
 {
-  "name": "PRINCE BOT MD",
-  "description": " WHASSAP BOT MADE BY PRINCE TECH.",
+  "name": "LOFT XMD ",
+  "description": " WHASSAP BOT MADE BY LOFT XMD.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/PRINCETECH20/Prince-bot-md-Device",
+  "repository": "https://github.com/LOFTXMD23/Loft-xmd-s24-Device",
   "stack": "container",
   "env": {
     "OWNERS": {
       "description": "owner numbers",
       "required": true,
-      "value": "255654003502"
+      "value": "255778018545"
     },
     "BOTNAME": {
       "description": "Give your bot a name",
       "required": true,
-      "value": "PRINCE-𝐃𝐄𝐕𝐈𝐂𝐄"
+      "value": "LOFT-𝐃𝐄𝐕𝐈𝐂𝐄"
     },
     "DATABASE_URL": {
       "description": "your mongodb database url",
