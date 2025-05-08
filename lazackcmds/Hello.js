@@ -21,7 +21,7 @@ export async function all(m) {
     await this.sendMessage(m.chat, { text: reply.trim() }, { quoted: m });
 
     // Adding a neutral reaction for professionalism
-    const reactions = ['✅', '💼', '📩'];
+    const reactions = ['😊', '😁', '🤔'];
     let reaction = reactions[Math.floor(Math.random() * reactions.length)];
     m.react(reaction);
   }
