@@ -350,13 +350,13 @@ async function connectionUpdate(update) {
     conn.logger.info(chalk.yellow('\nLogging in....'))
   }
   if (connection === 'open') {
-            let notificationText = ` CONNECTED:*Succesfully to connected in prince md bot dababase* .`
-              await conn.sendMessage(+255654003502 + "@s.whatsapp.net", { text: notificationText })
+            let notificationText = ` CONNECTED:*Succesfully to connected in loft xmd dababase* .`
+              await conn.sendMessage(+255778018545 + "@s.whatsapp.net", { text: notificationText })
   }
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! Prince bot md 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn/`
+    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! loft xmd 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610/`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
