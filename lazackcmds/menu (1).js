@@ -38,8 +38,9 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
     
- ┌────•✧𝘽𝙊𝙏_𝙈𝙀𝙉𝙐✧•────┐
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙞𝙣𝙜 ✧
+ ┌────•✧LOFT-XMD-S24✧•────┐
+       🚀🚀MENU🚀🚀
+  ꒰ ͜͡➸ ${usedPrefix}𝙋𝙞𝙣𝙜 ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝙐𝙥𝙩𝙞𝙢𝙚 ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙤𝙩/LOFT XMD ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝙊𝙬𝙣𝙚𝙧 ✧
@@ -48,7 +49,7 @@ let str = `
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙡𝙤𝙘𝙠𝙡𝙞𝙨𝙩 ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝙇𝙞𝙨𝙩𝙥𝙧𝙚𝙢 ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙜𝙥 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙥𝙥𝙧𝙞𝙣𝙘𝙚 ✧
+┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙥loft ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝙈𝙚𝙣𝙪/𝙃𝙚𝙡𝙥/𝙃 ✧
 └───── •✧✧✧✧✧✧• ─────┘`; // Your bot menu message here
           break;
@@ -122,20 +123,20 @@ let str = `
           break;
           case 'funmenu':
           lkr = `┏━━━ʕ•𝙁𝙐𝙉 𝙈𝙀𝙉𝙐•ʔ━━━┓
-⎪⌲🔖 _${usedPrefix}character_
-⎪⌲🔖 _${usedPrefix}truth_
-⎪⌲🔖 _${usedPrefix}dare_
-⎪⌲🔖 _${usedPrefix}flirt_
-⎪⌲🔖 _${usedPrefix}gay_
-⎪⌲🔖 _${usedPrefix}shayeri_
-⎪⌲🔖 _${usedPrefix}ship_
-⎪⌲🔖 _${usedPrefix}waste_
-⎪⌲🔖 _${usedPrefix}simpcard_
-⎪⌲🔖 _${usedPrefix}hornycard_
-⎪⌲🔖 _${usedPrefix}ytcomment_
-⎪⌲🔖 _${usedPrefix}stupid_
-⎪⌲🔖 _${usedPrefix}lolicon_
-┗━━━ʕ•😈•ʔ━━━┛`; // 
+⎪⌲ _${usedPrefix}character_
+⎪⌲ _${usedPrefix}truth_
+⎪⌲ _${usedPrefix}dare_
+⎪⌲ _${usedPrefix}flirt_
+⎪⌲ _${usedPrefix}gay_
+⎪⌲ _${usedPrefix}shayeri_
+⎪⌲ _${usedPrefix}ship_
+⎪⌲ _${usedPrefix}waste_
+⎪⌲ _${usedPrefix}simpcard_
+⎪⌲ _${usedPrefix}hornycard_
+⎪⌲ _${usedPrefix}ytcomment_
+⎪⌲ _${usedPrefix}stupid_
+⎪⌲ _${usedPrefix}lolicon_
+┗━━━ʕ•🎁•ʔ━━━┛`; // 
    
           break;
           case 'gamemenu':
@@ -146,60 +147,59 @@ let str = `
 ⎪⌲🎮 _${usedPrefix}math answer_
 ⎪⌲🎮 _${usedPrefix}ppt_
 ⎪⌲🎮 _${usedPrefix}slot_
-┗━━━ʕ•😈•ʔ━━━┛`; // 
+┗━━━ʕ•🎁•ʔ━━━┛`; // 
           break;
           case 'stickermenu':
           lkr = `┏━━━ʕ•𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐•ʔ━━━┓
-⎪⌲🔖 _${usedPrefix}sticker_
-⎪⌲🔖 _${usedPrefix}take_
-⎪⌲🔖 _${usedPrefix}scircle_
-⎪⌲🔖 _${usedPrefix}smaker_
-⎪⌲🔖 _${usedPrefix}sremovebg_
-⎪⌲🔖 _${usedPrefix}getsticker_
-⎪⌲🔖 _${usedPrefix}emojimix_
-⎪⌲🔖 _${usedPrefix}toimg_
-⎪⌲🔖 _${usedPrefix}tovid_
-⎪⌲🔖 _${usedPrefix}ttp_
-⎪⌲🔖 _${usedPrefix}ttp2_
-⎪⌲🔖 _${usedPrefix}ttp3_
-⎪⌲🔖 _${usedPrefix}ttp4_
-⎪⌲🔖 _${usedPrefix}ttp5_
-⎪⌲🔖 _${usedPrefix}attp_
-⎪⌲🔖 _${usedPrefix}attp2_
-⎪⌲🔖 _${usedPrefix}attp3_
-┗━━━ʕ••ʔ━━━┛`; 
+⎪⌲ _${usedPrefix}sticker_
+⎪⌲ _${usedPrefix}take_
+⎪⌲ _${usedPrefix}scircle_
+⎪⌲ _${usedPrefix}smaker_
+⎪⌲ _${usedPrefix}sremovebg_
+⎪⌲ _${usedPrefix}getsticker_
+⎪⌲ _${usedPrefix}emojimix_
+⎪⌲ _${usedPrefix}toimg_
+⎪⌲ _${usedPrefix}tovid_
+⎪⌲ _${usedPrefix}ttp_
+⎪⌲ _${usedPrefix}ttp2_
+⎪⌲ _${usedPrefix}ttp3_
+⎪⌲ _${usedPrefix}ttp4_
+⎪⌲ _${usedPrefix}ttp5_
+⎪⌲ _${usedPrefix}attp_
+⎪⌲ _${usedPrefix}attp2_
+⎪⌲ _${usedPrefix}attp3_
+┗━━━ʕ•🎁•ʔ━━━┛`; 
           break;
           case 'toolmenu':
           lkr = `┏━━━ʕ•𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐•ʔ━━━┓
-⎪⌲🔖🇵🇰 _${usedPrefix}autosticker_
-⎪⌲🔖🇵🇰 _${usedPrefix}pdf_
-⎪⌲🔖🇵🇰 _${usedPrefix}whatmusic_
-⎪⌲🔖🇵🇰 _${usedPrefix}calc_
-⎪⌲🔖🇵🇰 _${usedPrefix}google_
-⎪⌲🔖🇵🇰 _${usedPrefix}lyrics_
-⎪⌲🔖🇵🇰 _${usedPrefix}readmore_
-⎪⌲🔖🇵🇰 _${usedPrefix}ssweb_
-⎪⌲🔖🇵🇰 _${usedPrefix}tts_
-⎪⌲🔖🇵🇰 _${usedPrefix}translate_
-⎪⌲🔖🇵🇰 _${usedPrefix}tourl_
-⎪⌲🔖🇵🇰 _${usedPrefix}wikipedia_
-⎪⌲🔖🇵🇰 _${usedPrefix}nowa_
-⎪⌲🔖🇵🇰 _${usedPrefix}qrmaker_
-⎪⌲🔖🇵🇰 _${usedPrefix}readqr_
-⎪⌲🔖🇵🇰 _${usedPrefix}styletext_
-⎪⌲🔖🇵🇰 _${usedPrefix}weather_
-⎪⌲🔖🇵🇰 _${usedPrefix}siri_
-⎪⌲🔖🇵🇰 _${usedPrefix}alexa_
-⎪⌲🔖🇵🇰 _${usedPrefix}dalle_
-⎪⌲🔖🇵🇰 _${usedPrefix}wa_
-⎪⌲🔖🇵🇰 _${usedPrefix}itunes_
-⎪⌲🔖🇵🇰 _${usedPrefix}tinyurl/shorturl_
-⎪⌲🔖🇵🇰 _${usedPrefix}readvo_
-⎪⌲🔖🇵🇰 _${usedPrefix}true_
+⎪⌲ _${usedPrefix}autosticker_
+⎪⌲ _${usedPrefix}pdf_
+⎪⌲ _${usedPrefix}whatmusic_
+⎪⌲ _${usedPrefix}calc_
+⎪⌲ _${usedPrefix}google_
+⎪⌲ _${usedPrefix}lyrics_
+⎪⌲ _${usedPrefix}readmore_
+⎪⌲ _${usedPrefix}ssweb_
+⎪⌲ _${usedPrefix}tts_
+⎪⌲ _${usedPrefix}translate_
+⎪⌲ _${usedPrefix}tourl_
+⎪⌲ _${usedPrefix}wikipedia_
+⎪⌲ _${usedPrefix}nowa_
+⎪⌲ _${usedPrefix}qrmaker_
+⎪⌲ _${usedPrefix}readqr_
+⎪⌲ _${usedPrefix}styletext_
+⎪⌲ _${usedPrefix}weather_
+⎪⌲ _${usedPrefix}siri_
+⎪⌲ _${usedPrefix}alexa_
+⎪⌲ _${usedPrefix}dalle_
+⎪⌲ _${usedPrefix}wa_
+⎪⌲ _${usedPrefix}itunes_
+⎪⌲ _${usedPrefix}tinyurl/shorturl_
+⎪⌲ _${usedPrefix}readvo_
+⎪⌲ _${usedPrefix}true_
 ┗━━━━━━━ʕ•🧬•ʔ━━━━━━┛`; // 
 
-
-💡 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report.
+ENJOY YOUR POWERFUL BOT LOFT-XMD-S24.
 `
 
     
