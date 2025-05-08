@@ -1,8 +1,8 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/PRINCETECH/prince-bot-md@main/Botify/Mickey.mp3'
-  let url = 'https://github.comPRINCETECH/Prince-bot-md/'
+  var vn = 'https://cdn.jsdelivr.net/gh/LOFTXMD23/loft-xmd-s24@main/Botify/Mickey.mp3'
+  let url = 'https://github.comLOFTXMD22/loft-xmd-s24/'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
   let img = 'https://i.imgur.com/bf5Db5V.jpeg'
   let con = {
@@ -30,10 +30,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'PRINCE BOT™ ',
+        title: 'LOFTXMD',
         body: 'prince bot md',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn',
+        sourceUrl: 'https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
