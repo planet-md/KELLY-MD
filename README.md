@@ -1,7 +1,8 @@
   
   ⚡**LOFT-XMD**⚡ 
 
-![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
+![lazack](![835256da-7ac1-4548-ae35-ca4559f67a6d](https://github.com/user-attachments/assets/74313445-430f-405b-9a4e-a638200bf157)
+)
 
 
 
@@ -12,8 +13,7 @@
 
 ----------------------------------
  **FORK & STAR THE REPO**
-<a href="https://github.com/PRINCETECH20/Prince-bot-md/fork">![Screenshot_20250508-001636](https://github.com/user-attachments/assets/86fc7690-82a3-49cd-a347-0d9696bdc40a)
-
+<a href="https://github.com/loftxmd23/LOFT-XMD-S24/fork">![Screenshot_20250508-001636]
 ---
   
    **GET SESSION ID**
