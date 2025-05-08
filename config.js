@@ -24,9 +24,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['255654003502', '255612130873']
-global.prems = ['255654003502', '255612130873', '255612130873']
-global.allowed = ['255654003502', '255612130873']
+global.mods = ['255778018545', '255612130873']
+global.prems = ['255778018545', '255612130873', '255612130873']
+global.allowed = ['255778018545', '255612130873']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -43,8 +43,8 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.rcanal = 'https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn'
-global.canal = 'https://chat.whatsapp.com/FIk1ChQmNW84B6g8qat6Rn'
+global.rcanal = 'https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610'
+global.canal = 'https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610'
 
 
 global.APIs = {
@@ -81,7 +81,7 @@ global.author = '𝙡𝙖𝙯𝙖𝙘𝙠'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
-global.fgsc = 'https://github.com/PRINCETECH20/Prince-bot-md'
+global.fgsc = 'https://github.com/LOFTXMD23/Loft-xmd-s24'
 global.fgyt = 'https://youtube.com/@MickeyMozy'
 global.fgpyp = 'https://youtube.com/@MickeyMozy'
 global.fglog = ''
