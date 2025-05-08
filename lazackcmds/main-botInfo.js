@@ -66,13 +66,13 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 *≡ OWNER*
 ▢ Instagram :
-  • https://instagram.com/mickey_mozy24
+  • https://instagram.com/loftxmd
 ▢ GitHub :
-  • https://github.com/Dady24 
+  • https://github.com/LOFT-XMD-S24 
 ▢ YouTube : 
   • https://www.youtube.com/@MickdadyHamzaMickey_mozy
 ▢ credit: 
-  • mr Mickey
+  • mr Loft
 
  *≡ S E R V E R*
 * RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
