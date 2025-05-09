@@ -37,6 +37,7 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
+
 ╔═══════════════════════════╗
 乂───『 *LOFT XMD*』───乂 
 > Library :LOFT INFO TECH
