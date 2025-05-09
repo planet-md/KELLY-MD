@@ -172,7 +172,7 @@ ${readMore}
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu', 'help'] 
+handler.command = ['main', 'help'] 
 
 export default handler
 function clockString(ms) {
