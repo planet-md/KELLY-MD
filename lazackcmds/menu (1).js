@@ -155,7 +155,7 @@ ${readMore}
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
               newsletterJid: '120363419996770740@newsletter', // Replace with actual channel JID
-              newsletterName: 'PRINCETECH', // Replace with actual channel name
+              newsletterName: 'LOFT XMD', // Replace with actual channel name
               serverMessageId: -1,
             },
           },
