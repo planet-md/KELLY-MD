@@ -39,11 +39,11 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╔═══════════════════════════╗
 乂───『 *LOFT-XMD-S24*』───乂 
-> Library :LOFT XMD 
+> Library : LOFTXMD 
 > Version : 2.9.0
-> source : https://github.com/LOFTXMD23/loft-xmd-s24
-> owner : Mickeymozy
-  *@ LOFTXMD is bot made up by Sir loft*
+> source : https://github.com/LOFTXMD23/LOFT-XMD-S24 
+> owner : Sir loft
+  *@ LOFTXMD is bot made up by LOFT*
   *Thank you for your cooperation.* 
  乂───『 *ENJOY MY BOT*』───乂
 ${readMore}
@@ -63,88 +63,43 @@ ${greeting}
 
 ${readMore}
    『 *Main Menu* 』
-  🛡️ ───『 *Bᴏᴛ Mᴇɴᴜ* 』─── 🛡️
-  🛡️ .ᴘɪɴɢ
-  🛡️ .ʀᴜɴᴛɪᴍᴇ
-  🛡️ .sᴄʀɪᴘᴛ
-  🛡️ .sᴇʀᴠᴇʀ
-  🛡️ .ʙʟᴏᴄᴋʟɪsᴛ
-  🛡️ .ᴀʟɪᴠᴇ
-  🛡️ .ɪɴғᴏ
-  🛡️ .ᴏᴡɴᴇʀ
-  🛡️ .ᴛᴏᴛᴀʟғᴇᴀᴛᴜʀᴇ
-  🛡️ .ʟɪsᴛ
-  🛡️ .ᴄʀɪsᴛɪᴀɴᴏʀᴏɴᴀʟᴅᴏ
-  🛡️ .ᴄʀ7
-  🛡️ .ᴘᴘᴄᴏᴜᴘʟᴇ 
-  🛡️ .ᴘᴘᴄᴘ
-  🛡️ .ᴘɪɴᴛᴇʀᴇsᴛ
-  🛡️ .ᴍʏsɴ
-  ╰━━━━━━━━━━━━━━━━━━━╯
+│
+├─ ✦ ${usedPrefix}menu
+├─ ✦ ${usedPrefix}myip
+├─ ✦ ${usedPrefix}info
+├─ ✦ ${usedPrefix}owner
+├─ ✦ ${usedPrefix}runtime
+├─ ✦ ${usedPrefix}ping
+│─ ✦ ${usedPrefix}card
+
 
 ${readMore}
-   ✦ ───『 *ɢʀᴏᴜᴘ* 』─── ⚝
-  ◈ .ɢᴇᴛʙɪᴏ <@ᴛᴀɢ/ʀᴇᴘʟʏ>  Ⓛ
-  ◈ .ᴀɴɪᴍᴇϙᴜᴏᴛᴇ
-  ◈ .Sᴇᴛᴅᴇsᴄ <ᴛᴇxᴛ>
-  ◈ .sᴇᴛɴᴀᴍᴇ <ᴛᴇxᴛ>
-  ◈ .ᴀᴅᴅ
-  ◈ .ᴅᴇʟᴇᴛᴇ
-  ◈ .ᴅᴇʟᴡᴀʀɴ @ᴜsᴇʀ
-  ◈ .ᴅᴇᴍᴏᴛᴇ (@ᴛᴀɢ)
-  ◈ .ɪɴғᴏɢᴘ
-  ◈ .ʜɪᴅᴇᴛᴀɢ
-  ◈ .ɪɴᴠɪᴛᴇ <923xxx>
-  ◈ .ᴋɪᴄᴋ @ᴜsᴇʀ
-  ◈ .ʟɪɴᴋ
-  ◈ .ᴘᴏʟʟ ϙᴜᴇsᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ
-  ◈ .ᴘʀᴏғɪʟᴇ
-  ◈ .ᴘʀᴏᴍᴏᴛᴇ
-  ◈ .ʀᴇsᴇᴛʟɪɴᴋ
-  ◈ .sᴇᴛʙʏᴇ <ᴛᴇxᴛ>
-  ◈ .ɢʀᴏᴜᴘ *ᴏᴘᴇɴ/ᴄʟᴏsᴇ*
-  ◈ .sᴇᴛᴡᴇʟᴄᴏᴍᴇ <ᴛᴇxᴛ>
-  ◈ .sɪᴍᴜʟᴀᴛᴇ <ᴇᴠᴇɴᴛ> @ᴜsᴇʀ
-  ◈ .sᴛᴀғғ
-  ◈ .ᴛᴀɢᴀʟʟ
-  ◈ .ᴛᴏᴛᴀɢ
-  ◈ .ᴡᴀʀɴ @ᴜsᴇʀ
-  ◈ .ᴡᴀʀɴs
-  ◈ .ᴍᴀɪɴ
-  ╰──────────⳹
+   『 *Group Commands* 』
+│
+├─ ✦ ${usedPrefix}add
+├─ ✦ ${usedPrefix}kick
+├─ ✦ ${usedPrefix}promote
+├─ ✦ ${usedPrefix}demote
+├─ ✦ ${usedPrefix}tagall
+├─ ✦ ${usedPrefix}setname
+├─ ✦ ${usedPrefix}confess
+├─ ✦ ${usedPrefix}link
+├─ ✦ ${usedPrefix}group *open/close*
+│
+╰
 
 ${readMore}
-  ✦ ───『 *ᴏᴡɴᴇʀ* 』─── ⚝
-  ◈ .ᴀᴅᴅᴘʀᴇᴍ <@ᴛᴀɢ>
-  ◈ .ᴀᴅᴅᴏᴡɴᴇʀ @ᴜsᴇʀ
-  ◈ .ᴀʟʟᴏᴡ <@ᴛᴀɢ>
-  ◈ .HEROKU
-  ◈ .ʙᴀɴ @ᴜsᴇʀ
-  ◈ .ʙᴀɴᴄʜᴀᴛ
-  ◈ .ᴛx
-  ◈ .ʙʀᴏᴀᴅᴄᴀsᴛɢʀᴏᴜᴘ <ᴛᴇxᴛ>
-  ◈ .ʙᴄɢᴄ <ᴛᴇxᴛ>
-  ◈ .ᴄʟᴇᴀʀᴛᴍᴘ
-  ◈ .ᴅᴇʟᴇxᴘɪʀᴇᴅ
-  ◈ .ᴅᴇʟᴘʀᴇᴍ @ᴜsᴇʀ
-  ◈ .ʀᴇᴍᴏᴠᴇᴏᴡɴᴇʀ @ᴜsᴇʀ
-  ◈ .sᴇᴛᴘᴘʙᴏᴛғᴜʟʟ
-  ◈ .ɢᴇᴛᴘʟᴜɢɪɴ <ɴᴀᴍᴇ ғɪʟᴇ>
-  ◈ .ɢᴇᴛғɪʟᴇ <ɴᴀᴍᴇ ғɪʟᴇ>
-  ◈ .ᴊᴏɪɴ <ᴄʜᴀᴛ.ᴡʜᴀᴛsᴀᴘᴘ.ᴄᴏᴍ> <ᴅɪᴀs>
-  ◈ .ʀᴇsᴇᴛ <54xxx>
-  ◈ .ʀᴇsᴇᴛᴘʀᴇғɪx
-  ◈ .ʀᴇsᴛᴀʀᴛ
-  ◈ ..sᴇᴛᴘʀᴇғɪx
-  ◈ ..sᴇᴛᴘʀᴇғɪx [sʏᴍʙᴏʟ]
-  ◈ .ᴜɴʙᴀɴ @ᴜsᴇʀ
-  ◈ .ᴜɴʙᴀɴᴄʜᴀᴛ
-  ◈ .ᴜᴘᴅᴀᴛᴇ
-  ◈ .ᴄᴏɴғɪɢ
-  ◈ .ʟɪsᴛʙᴀɴ
-  ◈ .ᴅᴇʟᴇᴛᴇᴘʟᴜɢɪɴ <ɴᴀᴍᴇ>
-  ╰──────────⳹
-  
+    『 *Fun Commands* 』
+│
+├─ ✦ ${usedPrefix}getsticker
+├─ ✦ ${usedPrefix}readmore
+├─ ✦ ${usedPrefix}stupid
+├─ ✦ ${usedPrefix}waste
+├─ ✦ ${usedPrefix}emojimix
+├─ ✦ ${usedPrefix}love
+├─ ✦ ${usedPrefix}ship
+│
+
 
 ${readMore}
    『 *Downloader* 』
