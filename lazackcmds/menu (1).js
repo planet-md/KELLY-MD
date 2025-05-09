@@ -165,10 +165,24 @@ ${readMore}
 ⎪⌲🎮 _${usedPrefix}math answer_
 ⎪⌲🎮 _${usedPrefix}ppt_
 ⎪⌲🎮 _${usedPrefix}slot_
-┗━━━ʕ•💌•ʔ━━━┛
+┗━━━ʕ•🚀•ʔ━━━┛
 
 ${readMore}
-
+┏━━━ʕ•𝙁𝙐𝙉 𝙈𝙀𝙉𝙐•ʔ━━━┓
+⎪⌲ _${usedPrefix}character_
+⎪⌲ _${usedPrefix}truth_
+⎪⌲ _${usedPrefix}dare_
+⎪⌲ _${usedPrefix}flirt_
+⎪⌲ _${usedPrefix}gay_
+⎪⌲ _${usedPrefix}shayeri_
+⎪⌲ _${usedPrefix}ship_
+⎪⌲ _${usedPrefix}waste_
+⎪⌲ _${usedPrefix}simpcard_
+⎪⌲ _${usedPrefix}hornycard_
+⎪⌲ _${usedPrefix}ytcomment_
+⎪⌲ _${usedPrefix}stupid_
+⎪⌲ _${usedPrefix}lolicon_
+┗━━━ʕ•😂•ʔ━━━┛
 
 *For  contart and communication please contart me.*
 
