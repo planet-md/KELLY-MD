@@ -13,7 +13,7 @@ let handler = async (m, { text, conn }) => {
     return await conn.sendMessage(
       m.chat,
       {
-        text: `${replyText}\n\n*~ Powered by PRINCETECH Al*`,
+        text: `${replyText}\n\n*~ Powered by LOFTXMD Al*`,
         image: { url: 'https://files.catbox.moe/8324jm.jpg' },
         contextInfo: {
           mentionedJid: [m.sender],
@@ -21,7 +21,7 @@ let handler = async (m, { text, conn }) => {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363419996770740@newsletter',
-            newsletterName: 'PRINCETECH Al ',
+            newsletterName: 'LOFTXMD ',
             serverMessageId: 143,
           },
         },
@@ -38,7 +38,7 @@ let handler = async (m, { text, conn }) => {
 
     if (!reply) throw 'No valid response from GuruSensei API';
     await fancyReply(reply);
-    return m.react('✅');
+    return m.react('😊');
   } catch (err1) {
     console.warn('[GuruSensei Error]', err1);
 
@@ -49,7 +49,7 @@ let handler = async (m, { text, conn }) => {
       let reply2 = json2?.completion || '🤖 AI could not generate a proper response.';
 
       await fancyReply(reply2);
-      return m.react('🔁');
+      return m.react('♻️');
     } catch (err2) {
       console.error('[Ultimetron Fallback Error]', err2);
       m.react('❌');
