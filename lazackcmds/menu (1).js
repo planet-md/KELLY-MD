@@ -47,14 +47,12 @@ let str = `
 ╭━━━⊱ ⚙️ *BOT INFO* ⚙️ ⊱━━━
 🛡️ *MODE:** PRIVATE* 
 📱 *PLATFORM:* *LINUX* 
-💻 *TYPE:* *BUG BOT*
+💻 *TYPE:* *POWERFUL BOT*
 🔑 *PREFIX:* [ *.* ]
 ⏳ *UPTIME:* *1.0.0*
 💾 *DATABASE:* 🚀🚀
-╰━━━━━━━━━━━━━━`; // Your bot menu message here
-          break;
-        case 'ownermenu':
-          lkr = `┌────•✧𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎✧•────┐
+╰━━━━━━━━━━━━━━`;   
+┌────•✧𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎✧•────┐
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙖𝙣𝙘𝙝𝙖𝙩 ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝙐𝙣𝙗𝙖𝙣𝙘𝙖𝙝𝙩 ✧
 ┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙖𝙣𝙪𝙨𝙚𝙧 ✧
