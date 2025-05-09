@@ -41,9 +41,9 @@ let str = `
 乂───『 *MICKEY-TRONY BOT*』───乂 
 > Library :MICKEY INFO TECH
 > Version : 2.9.0
-> source : https://github.com/Mickeymozy/Mickey-trony
+> source : https://github.com/LOFTXMD23/loft-xmd-s24
 > owner : Mickeymozy
-  *@ Mickey-trony is bot made up by Mickey*
+  *@ LOFTXMD is bot made up by Sir loft*
   *Thank you for your cooperation.* 
  乂───『 *ENYOY MY BOT*』───乂
 ${readMore}
@@ -63,15 +63,24 @@ ${greeting}
 
 ${readMore}
    『 *Main Menu* 』
-│
-├─ ✦ ${usedPrefix}menu
-├─ ✦ ${usedPrefix}myip
-├─ ✦ ${usedPrefix}info
-├─ ✦ ${usedPrefix}owner
-├─ ✦ ${usedPrefix}runtime
-├─ ✦ ${usedPrefix}ping
-│─ ✦ ${usedPrefix}card
-
+  🛡️ ───『 *Bᴏᴛ Mᴇɴᴜ* 』─── 🛡️
+  🛡️ .ᴘɪɴɢ
+  🛡️ .ʀᴜɴᴛɪᴍᴇ
+  🛡️ .sᴄʀɪᴘᴛ
+  🛡️ .sᴇʀᴠᴇʀ
+  🛡️ .ʙʟᴏᴄᴋʟɪsᴛ
+  🛡️ .ᴀʟɪᴠᴇ
+  🛡️ .ɪɴғᴏ
+  🛡️ .ᴏᴡɴᴇʀ
+  🛡️ .ᴛᴏᴛᴀʟғᴇᴀᴛᴜʀᴇ
+  🛡️ .ʟɪsᴛ
+  🛡️ .ᴄʀɪsᴛɪᴀɴᴏʀᴏɴᴀʟᴅᴏ
+  🛡️ .ᴄʀ7
+  🛡️ .ᴘᴘᴄᴏᴜᴘʟᴇ 
+  🛡️ .ᴘᴘᴄᴘ
+  🛡️ .ᴘɪɴᴛᴇʀᴇsᴛ
+  🛡️ .ᴍʏsɴ
+  ╰━━━━━━━━━━━━━━━━━━━╯
 
 ${readMore}
    『 *Group Commands* 』
