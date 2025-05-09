@@ -228,38 +228,154 @@ chat.antiLink2 = isEnable
         return m.reply(`
 ≡ List of options
 
-◈──『 *ADMIN*』───⳹
-⛊ welcome
-⛊ antilink
-⛊ antilink2
-⛊ nsfw
-⛊ autosticker
-⛊ detect
-⛊ jarvis
-⛊ antispam
-⛊ antitoxic
-╰──────────⳹ 
-◈──『 *USERS*』───⳹
-⛊ autolevelup
-⛊ chatbot 
-╰──────────⳹
-◈──『 *OWNER*』───⳹
-⛊ onlydm
-⛊ grouponly
-⛊ autotype
-⛊ autobio
-⛊ self
-╰──────────⳹
-*📌 Example :*
-*${usedPrefix}on* welcome
-*${usedPrefix}off* welcome
-`)
+━━━━━━━━━━━━━【 *⚙️ BOT SETTINGS* ⚙️ 】━━━━━━━━━━━━━
+                *✨ Toggle Features ✨*
+━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
+
+   To toggle features, use *\`${usedPrefix}on\`* or *\`${usedPrefix}off\`*:
+
+   *\`${usedPrefix}on welcome\`*  
+   *\`${usedPrefix}off welcome\`*
+   
+╭━━━━━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━━━━━━╮
+
+🔒 *\`${usedPrefix + command} public\`*  
+   ➤ Switch bot between private and public mode
+
+🚫 *\`${usedPrefix + command} pmblocker\`*  
+   ➤ Block spam messages in inbox
+
+💫 *\`${usedPrefix + command} autoreaction/reactions\`*  
+   ➤ Enable auto-reactions to chats
+
+👑 *\`${usedPrefix + command} ownerreact/oreact\`*  
+   ➤ Enable auto owner react to bots messages
+
+♥️ *\`${usedPrefix + command} statuslikes/likes\`*  
+   ➤ Enable auto status likes to bot
+
+🥏 *\`${usedPrefix + command} statussaver\`*  
+   ➤ Enable auto statussaver to bot
+
+📩 *\`${usedPrefix + command} statusreply/sreply\`*  
+   ➤ Enable auto statusreply to bot
+
+🚀 *\`${usedPrefix + command} statusview\`*  
+   ➤ Enable auto statusview to bot
+
+💻 *\`${usedPrefix + command} alwaysonline\`*  
+   ➤ Enable alwaysonline to bot
+
+💬 *\`${usedPrefix + command} autoread\`*  
+   ➤ Enable auto-reard chats
+
+👀 *\`${usedPrefix + command} antiviewonce\`*  
+   ➤ Enable viewonce to bot
+
+🦠 *\`${usedPrefix + command} antipmspam\`*  
+   ➤ Block spam and viruses in PMs
+
+📩 *\`${usedPrefix + command} onlydm\`*  
+   ➤ Limit bot to work only in DMs
+
+👥 *\`${usedPrefix + command} onlyg\`*  
+   ➤ Limit bot to work only in groups
+
+⌨️ *\`${usedPrefix + command} autotype\`*  
+   ➤ Show typing indicator in chats
+
+🌐 *\`${usedPrefix + command} autobio\`*  
+   ➤ Automatically update bot's bio
+
+🚫 *\`${usedPrefix + command} antibotclone\`*  
+   ➤ Remove cloned bots from groups
+
+⚠️ *\`${usedPrefix + command} antibot\`*  
+   ➤ Remove bots from groups
+
+🔐 *\`${usedPrefix + command} restrict\`*  
+   ➤ Restrict features like antilinkall
+
+╭━━━━━━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━━━━━━╮
+
+🌟 *\`${usedPrefix + command} welcome\`*  
+   ➤ Send welcome and goodbye messages
+
+🖼️ *\`${usedPrefix + command} autosticker\`*  
+   ➤ Automatically create stickers from images and videos
+
+✅ *\`${usedPrefix + command} autoapprove\`*  
+   ➤ Enable autoapprove and reject to group
+   
+🔢 *\`${usedPrefix + command} antifake\`*  
+   ➤ Enable antifake to group
+
+🔍 *\`${usedPrefix + command} detect\`*  
+   ➤ Feature coming soon…
+
+🎤 *\`${usedPrefix + command} jarvis\`*  
+   ➤ Activate the voice chatbot
+
+🛡️ *\`${usedPrefix + command} antispam\`*  
+   ➤ Detect and block spammers
+
+📎 *\`${usedPrefix + command} antideletelinks\`*  
+   ➤ Delete every links in groups
+
+🚷 *\`${usedPrefix + command} nocmds\`*  
+   ➤ Remove users who misuse commands
+
+🌐 *\`${usedPrefix + command} antilinkall\`*  
+   ➤ Detect and block all types of links
+
+💢 *\`${usedPrefix + command} antitoxic\`*  
+   ➤ Block toxic language
+
+🎵 *\`${usedPrefix + command} antiTiktok\`*  
+   ➤ Block Tiktok links
+
+📹 *\`${usedPrefix + command} antiYoutube\`*  
+   ➤ Block YouTube links
+
+📱 *\`${usedPrefix + command} antiTelegram\`*  
+   ➤ Block Telegram links
+
+📘 *\`${usedPrefix + command} antiFacebook\`*  
+   ➤ Block Facebook links
+
+📸 *\`${usedPrefix + command} antiInstagram\`*  
+   ➤ Block Instagram links
+
+🐦 *\`${usedPrefix + command} antiTwitter\`*  
+   ➤ Block Twitter links
+
+🧵 *\`${usedPrefix + command} antiThreads\`*  
+   ➤ Block Threads links
+
+🎮 *\`${usedPrefix + command} antiDiscord\`*  
+   ➤ Block Discord links
+
+🎮 *\`${usedPrefix + command} antiTwitch\`*  
+   ➤ Block Twitch links
+
+⚠️ *\`${usedPrefix + command} antibot\`*  
+   ➤ Remove bots from groups
+
+> ⚠️ *Bot automatically removes violators* ⚠️
+
+╭━━━━━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━━━━━╮
+
+🗨️ *\`${usedPrefix + command} chatbot\`*  
+   ➤ Start a conversation with the bot
+
+🤖 *\`${usedPrefix + command} loftchat\`* or *\`${usedPrefix}loftgpt\`*  
+   ➤ Chat with Loftbot (ask anything!)
       throw false
   }
 
   m.reply(
     `
-✅ *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
+🚀 *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
 `.trim()
   )
 }
