@@ -37,40 +37,44 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-╔══════════════════════╗
-║ 🚀 *LOFT XMD 🚀* 
-║ ─────────────────────
-║ 📌 *Version*: 1.0.0
-║ 👨‍💻 *Owner*: LOFTXMD 
-║ 📞 *Contact*: +255778018545
-║ 💻 *Platform*: *𝙇𝙄𝙉𝙐𝙓*
-║ 🔒 *Mode*: *ℙ𝕌𝔹𝕃𝕀ℂ*
-║ ✨ *Prefix*: [ ${usedPrefix} ]
-╚══════════════════════╝
+╔═══════════════════════════╗
+乂───『 *LOFT XMD*』───乂 
+> Library :LOFT INFO TECH
+> Version : 2.9.0
+> source : https://github.com/LOFTXMD23/LOFT-XMD-S24 
+> owner : Mickeymozy
+  *@ LOFTXMD is bot made up by LOFT*
+  *Thank you for your cooperation.* 
+ 乂───『 *ENJOY MY BOT*』───乂
+${readMore}
+『 *COMMAND MENU* 』 
+*use this command by start with prefix*
+${readMore}
+╚═══════════════════════════╝
 
 ${readMore}
 👋 *Hello, ${username}!*
 ${greeting}
 
-📅 *Date*: ${date}
-⏰ *Time*: ${wib}
-📊 *Total Users*: ${totaluser}
-📈 *Registered Users*: ${rtotalreg}
+ *Date*: ${date}
+ *Time*: ${wib}
+ *Total Users*: ${totaluser}
+ *Registered Users*: ${rtotalreg}
 
 ${readMore}
-╭───『 *Main Menu* 』───╮
+   『 *Main Menu* 』
 │
 ├─ ✦ ${usedPrefix}menu
-├─ ✦ ${usedPrefix}help
+├─ ✦ ${usedPrefix}myip
 ├─ ✦ ${usedPrefix}info
 ├─ ✦ ${usedPrefix}owner
 ├─ ✦ ${usedPrefix}runtime
 ├─ ✦ ${usedPrefix}ping
-│
-╰──────────────────────╯
+│─ ✦ ${usedPrefix}card
+
 
 ${readMore}
-╭───『 *Group Commands* 』───╮
+   『 *Group Commands* 』
 │
 ├─ ✦ ${usedPrefix}add
 ├─ ✦ ${usedPrefix}kick
@@ -78,69 +82,68 @@ ${readMore}
 ├─ ✦ ${usedPrefix}demote
 ├─ ✦ ${usedPrefix}tagall
 ├─ ✦ ${usedPrefix}setname
-├─ ✦ ${usedPrefix}setdesc
+├─ ✦ ${usedPrefix}confess
 ├─ ✦ ${usedPrefix}link
 ├─ ✦ ${usedPrefix}group *open/close*
 │
-╰───────────────────────╯
+╰
 
 ${readMore}
-╭───『 *Fun Commands* 』───╮
+    『 *Fun Commands* 』
 │
-├─ ✦ ${usedPrefix}meme
-├─ ✦ ${usedPrefix}quote
-├─ ✦ ${usedPrefix}joke
-├─ ✦ ${usedPrefix}truth
-├─ ✦ ${usedPrefix}dare
-├─ ✦ ${usedPrefix}flirt
+├─ ✦ ${usedPrefix}getsticker
+├─ ✦ ${usedPrefix}readmore
+├─ ✦ ${usedPrefix}stupid
+├─ ✦ ${usedPrefix}waste
+├─ ✦ ${usedPrefix}emojimix
+├─ ✦ ${usedPrefix}love
 ├─ ✦ ${usedPrefix}ship
 │
-╰──────────────────────╯
+
 
 ${readMore}
-╭───『 *Downloader* 』───╮
+   『 *Downloader* 』
 │
-├─ ✦ ${usedPrefix}ytmp3
+├─ ✦ ${usedPrefix}play
 ├─ ✦ ${usedPrefix}song
 ├─ ✦ ${usedPrefix}yts
-├─ ✦ ${usedPrefix}play
-├─ ✦ ${usedPrefix}splay
+├─ ✦ ${usedPrefix}gitclone
+├─ ✦ ${usedPrefix}image
 ├─ ✦ ${usedPrefix}ytmp4
 ├─ ✦ ${usedPrefix}tiktok
 ├─ ✦ ${usedPrefix}instagram
 ├─ ✦ ${usedPrefix}facebook
 ├─ ✦ ${usedPrefix}mediafire
 │
-╰──────────────────────╯
+
 
 ${readMore}
-╭───『 *Tools* 』───╮
-│
-├─ ✦ ${usedPrefix}qr
-├─ ✦ ${usedPrefix}weather
+   『 *Tools* 』
+│─ ✦ ${usedPrefix}vv,read
+├─ ✦ ${usedPrefix}clock
+├─ ✦ ${usedPrefix}who
 ├─ ✦ ${usedPrefix}translate
-├─ ✦ ${usedPrefix}shorten
-├─ ✦ ${usedPrefix}define
-├─ ✦ ${usedPrefix}google
-│
-╰───────────────────╯
+├─ ✦ ${usedPrefix}tourl
+├─ ✦ ${usedPrefix}tovid
+├─ ✦ ${usedPrefix}summary
+│─ ✦ ${usedPrefix}shazam                                                                                  
+│─ ✦ ${usedPrefix}vcard
 
 ${readMore}
-╭───『 *AI Features* 』───╮
+   『 *AI Features* 』
 │
 ├─ ✦ ${usedPrefix}chatgpt
-├─ ✦ ${usedPrefix}dalle
+├─ ✦ ${usedPrefix}deep
 ├─ ✦ ${usedPrefix}bing
-├─ ✦ ${usedPrefix}bard
+├─ ✦ ${usedPrefix}mick
 ├─ ✦ ${usedPrefix}ai
 │
-╰────────────────────╯
 
 
-💡 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report.
+*For  contart and communication please contart me.*
+
+💡 *Tip: Use the prefix and one of the commands above. For feedback, use ${usedPrefix}report and type your opinion*
 `
-
-
 
        // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
 
@@ -154,8 +157,8 @@ ${readMore}
             isForwarded: true,
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363419996770740@newsletter', // Replace with actual channel JID
-              newsletterName: 'LOFT XMD', // Replace with actual channel name
+              newsletterJid: '120363314875614529@newsletter', // Replace with actual channel JID
+              newsletterName: 'LOFTXMD', // Replace with actual channel name
               serverMessageId: -1,
             },
           },
@@ -169,7 +172,7 @@ ${readMore}
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu', 'help'] 
+handler.command = ['menu2', 'help2'] 
 
 export default handler
 function clockString(ms) {
