@@ -20,215 +20,54 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
         throw false
       }
       chat.welcome = isEnable
-      break    
-      
-	  case 'jarvis':
-     case 'autotalk':
+      break
+    case 'jarvis':
+    case 'autotalk':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
-           throw false
-          }}
-      chat.jarvis = isEnable
-     break
-	
-	  
-	  case 'pmblocker':
-	case 'pbm':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.pmblocker = isEnable
-break	  
-
-		  
-		  case 'testbb':
-	case 'testb':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.testbot = isEnable
-break	
-
-		  
-
-		  case 'oreact':
-		  case 'ownerreacts':
-	case 'ownerreact':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.ownerreacts = isEnable
-break	
-
-		  case 'statuslikes':
-		  case 'statuslike':
-		  case 'slikes':
-	case 'likes':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.like = isEnable
-break	
-
-
-case 'statusreply':
-		  case 'replystatus':
-	case 'sreply':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.statusreply = isEnable
-break	
-
-
-
-
-		  
-		  case 'sw':
-		  case 'sview':
-	case 'statusview':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.statusview = isEnable
-break	
-
-
-		  case 'alwaysonline':
-	case 'online':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.alwaysonline = isEnable
-break	
-
-
-		  case 'statussaver':
-	case 'savestatus':
-		  case 'statussave':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.statussave = isEnable
-break	
-
-
-case 'anticall':
-        case 'nocall':
-          isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.anticalls = isEnable
-break
-		  
-
-
-		  
- case 'autoread': case 'read':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.autoread2 = isEnable    
-global.opts['autoread'] = isEnable      
-break
-
-
-
-		  
-	case 'antiviewonce':
-	case 'viewonce':
-	  case 'vv':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.viewonce = isEnable
-break
-
-		  	case 'antiviewonce2':
-	case 'viewonce2':
-	  case 'vv2':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-chat.viewOnce = isEnable
-break
-
-		  case 'reacts': case 'reaction':
-	case 'autoreaction': case 'reactions': case 'autoreactions':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.autoreacts = isEnable
-break	  
-
-
-case 'antipmspam':
-	case 'pmspam':
-		  case 'spampm':
-isAll = true
-if (!isROwner) {
-global.dfail('rowner', m, conn)
-throw false
-}
-bot.pmspam = isEnable
-break	  
-		  
-
-	  
- case 'autobio':
-  isAll = true
-  if (!isROwner) {
-  global.dfail('rowner', m, conn)
-  throw false
-  }
-  bot.autoBio = isEnable
-  break	 
-   
-	  
-	  
-     case 'detect':
-      case 'detector':
-        if (!m.isGroup) {
-         if (!isOwner) {
-           global.dfail('group', m, conn)
           throw false
         }
-       } else if (!isAdmin) {
-         global.dfail('admin', m, conn)
-         throw false
-       }
-       chat.detect = isEnable
-     break
-    
-	  
-     case 'autosticker':
+      }
+      chat.jarvis = isEnable
+      break
+    case 'pmblocker':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      bot.pmblocker = isEnable
+      case 'antilink2': case 'antienlace2':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.antiLink2 = isEnable 
+      break
+    case 'autobio':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      bot.autoBio = isEnable
+      break
+    case 'detect':
+    case 'detector':
+      if (!m.isGroup) {
+        if (!isOwner) {
+          global.dfail('group', m, conn)
+          throw false
+        }
+      } else if (!isAdmin) {
+        global.dfail('admin', m, conn)
+        throw false
+      }
+      chat.detect = isEnable
+      break
+    case 'autosticker':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
@@ -237,10 +76,7 @@ break
       }
       chat.autosticker = isEnable
       break
-      
-	  
-	  
-      case 'antispam':
+    case 'antispam':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
@@ -249,9 +85,7 @@ break
       }
       chat.antiSpam = isEnable
       break
-   
-	  
-   case 'antidelete':
+    case 'antidelete':
     case 'delete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
@@ -261,8 +95,6 @@ break
       }
       chat.delete = !isEnable
       break
-  
-	  
     case 'antitoxic':
     case 'antibadword':
       if (m.isGroup) {
@@ -274,17 +106,14 @@ break
       chat.antiToxic = isEnable
       break
 
-		  
     case 'document':
     case 'documento':
-    if (m.isGroup) {
+      if (m.isGroup) {
         if (!(isAdmin || isOwner)) return dfail('admin', m, conn)
       }
-    chat.useDocument = isEnable
-    break
- 
-	  
-	  case 'autostatus':
+      chat.useDocument = isEnable
+      break
+    case 'autostatus':
       isAll = true
       if (!isROwner) {
         global.dfail('rowner', m, conn)
@@ -293,229 +122,35 @@ break
       chat.viewStory = isEnable
       break
 
-//🤍♥️🤍♥️🤍♥️🤍TEST CHAT		  
-
-
-    case 'testf':
-    case 'testfeature':
-    case 'tst':
+    case 'antilink':
+    case 'antilinkwa':
+    case 'antilinkwha':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
           throw false
         }
       }
-      chat.testf = isEnable
+      chat.antiLink = isEnable
       break
 
-
-		  case 'antibot':
-    case 'botanti':
-    case 'nobot':
+    case 'nsfw':
+    case '+18':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
           throw false
         }
       }
-      chat.antiBot = isEnable
+      chat.nsfw = isEnable
       break
 
-		  case 'approve':
-		  case 'ap':
-    case 'autoapprove':
-    case 'approveauto':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.autoapprove = isEnable
-      break
-
-
-		  case 'antifake':
-    case 'fake':
-    case 'blockusers':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.antifake = isEnable
-      break
-
-
-case 'antideletelinks':
-    case 'deletelinks':
-    case 'linksdelete':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.antdeletelinks = isEnable
-      break
-		  
-
-		  case 'nocmds':
-    case 'anticommands':
-    case 'blockcmds':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.anticmds = isEnable
-      break
-
-
-		  
-		  case 'antilink2': case 'antilinkall':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiLink2 = isEnable 
-break
-
-		  
-case 'antitiktok': case 'antitk': case 'antitik':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiTiktok = isEnable 
-break
-
-		  
-case 'antiyoutube': case 'antiyt':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiYoutube = isEnable 
-break
-
-		  
-case 'antitelegram': case 'antitl': case 'antitele': case 'antitg': case 'antitel':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiTelegram = isEnable 
-break
-
-		  
-case 'antifacebook': case 'antifb': case 'antifbook':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiFacebook = isEnable 
-break
-
-
-		  
-case 'antiinstagram': case 'antinstagram': case 'antiig': case 'antig': case 'antiinsta': case 'antinsta':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiInstagram = isEnable 
-break
-
-
-		  
-case 'antitwitter': case 'antitw': case 'antitwit': case 'antitwter': case 'antitwiter': case 'antix':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiTwitter = isEnable 
-break
-
-
-		  
-case 'antidiscord':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiDiscord = isEnable 
-break
-
-
-		  
-case 'antithreads':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiThreads = isEnable 
-break
-		  
-
-case 'antitwitch':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiTwitch = isEnable 
-break
-
-		  case 'antiporn': case 'antinude':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}}
-chat.antiPorn = isEnable          
-break
-		  
-      case 'antibotclone':
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.antiBotClone = isEnable
-      break
-
-		  
-      case 'nsfw':
-      case '+18':
-       if (m.isGroup) {
-         if (!(isAdmin || isOwner)) {
-           global.dfail('admin', m, conn)
-            throw false
-           }}
-    chat.nsfw = isEnable          
-    break
-
-		  
     case 'autolevelup':
-    isUser = true
-     user.autolevelup = isEnable
-     break
+      isUser = true
+      user.autolevelup = isEnable
+      break
 
-		  
-     case 'chatbot':
+    case 'chatbot':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
@@ -525,18 +160,6 @@ break
       chat.chatbot = isEnable
       break
 
-    case 'loftchat':
-	case 'loftgpt':	  
-      if (m.isGroup) {
-        if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
-        }
-      }
-      chat.Loftchat = isEnable
-      break
-
-		  
     case 'restrict':
     case 'restringir':
       isAll = true
@@ -546,209 +169,97 @@ break
       }
       bot.restrict = isEnable
       break
-
-		  case 'public':
-    case 'publico':
-      isAll = true
-      if (!isROwner) {
-        global.dfail('rowner', m, conn)
-        throw false
-      }
-      global.opts['self'] = !isEnable
-      break
-		  
-	  
-	case 'autotype':
-    case 'type':
+    case 'autotype':
+    case 'alwaysonline':
       isAll = true
       if (!isOwner) {
         global.dfail('owner', m, conn)
         throw false
       }
       chat.autotype = isEnable
-      break         
-      
+      break
+
+    case 'anticall':
+    case 'nocall':
+      isAll = true
+      if (!isOwner) {
+        global.dfail('owner', m, conn)
+        throw false
+      }
+      bot.antiCall = isEnable
+      break
     case 'onlypv':
     case 'onlydm':
     case 'onlymd':
-    case 'pconly':
+    case 'solopv':
       isAll = true
-      if (!isOwner) {
-        global.dfail('owner', m, conn)
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
         throw false
       }
-      //global.opts['solopv'] = isEnable
-      bot.pconly = isEnable
+      global.opts['pconly'] = isEnable
       break
-      
+
     case 'gponly':
     case 'onlygp':
     case 'grouponly':
-    case 'gconly':
+    case 'sologp':
     case 'sologrupo':
       isAll = true
-      if (!isOwner) {
-        global.dfail('owner', m, conn)
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
         throw false
       }
-      //global.opts['sologp'] = isEnable
-      bot.gconly = isEnable
+      global.opts['gconly'] = isEnable
       break
 
-      
+      case 'self':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['self'] = isEnable
+      break
+
+
     default:
       if (!/[01]/.test(command))
         return m.reply(`
 ≡ List of options
 
-━━━━━━━━━━━━━【 *⚙️ BOT SETTINGS* ⚙️ 】━━━━━━━━━━━━━
-                *✨ LOFT FEATURE ✨*
-━━━━━━━━━━━━━━【 *EXAMPLES* 】━━━━━━━━━━━━━━
-
-   To toggle features, use *\`${usedPrefix}on\`* or *\`${usedPrefix}off\`*:
-
-   *\`${usedPrefix}on welcome\`*  
-   *\`${usedPrefix}off welcome\`*
-   
-╭━━━━━━━━━━━━━━【 *👑 OWNER CMD* 】━━━━━━━━━━━━━━╮
-
-🔒 *\`${usedPrefix + command} public\`*  
-   ➤ Switch bot between private and public mode
-
-🚫 *\`${usedPrefix + command} pmblocker\`*  
-   ➤ Block spam messages in inbox
-
-💫 *\`${usedPrefix + command} autoreaction/reactions\`*  
-   ➤ Enable auto-reactions to chats
-
-👑 *\`${usedPrefix + command} ownerreact/oreact\`*  
-   ➤ Enable auto owner react to bots messages
-
-♥️ *\`${usedPrefix + command} statuslikes/likes\`*  
-   ➤ Enable auto status likes to bot
-
-🥏 *\`${usedPrefix + command} statussaver\`*  
-   ➤ Enable auto statussaver to bot
-
-📩 *\`${usedPrefix + command} statusreply/sreply\`*  
-   ➤ Enable auto statusreply to bot
-
-🚀 *\`${usedPrefix + command} statusview\`*  
-   ➤ Enable auto statusview to bot
-
-💻 *\`${usedPrefix + command} alwaysonline\`*  
-   ➤ Enable alwaysonline to bot
-
-💬 *\`${usedPrefix + command} autoread\`*  
-   ➤ Enable auto-reard chats
-
-👀 *\`${usedPrefix + command} antiviewonce\`*  
-   ➤ Enable viewonce to bot
-
-🦠 *\`${usedPrefix + command} antipmspam\`*  
-   ➤ Block spam and viruses in PMs
-
-📩 *\`${usedPrefix + command} onlydm\`*  
-   ➤ Limit bot to work only in DMs
-
-👥 *\`${usedPrefix + command} onlyg\`*  
-   ➤ Limit bot to work only in groups
-
-⌨️ *\`${usedPrefix + command} autotype\`*  
-   ➤ Show typing indicator in chats
-
-🌐 *\`${usedPrefix + command} autobio\`*  
-   ➤ Automatically update bot's bio
-
-🚫 *\`${usedPrefix + command} antibotclone\`*  
-   ➤ Remove cloned bots from groups
-
-⚠️ *\`${usedPrefix + command} antibot\`*  
-   ➤ Remove bots from groups
-
-🔐 *\`${usedPrefix + command} restrict\`*  
-   ➤ Restrict features like antilinkall
-
-╭━━━━━━━━━━━━━━【 *⚡ ADMIN CMD* 】━━━━━━━━━━━━━━╮
-
-🌟 *\`${usedPrefix + command} welcome\`*  
-   ➤ Send welcome and goodbye messages
-
-🖼️ *\`${usedPrefix + command} autosticker\`*  
-   ➤ Automatically create stickers from images and videos
-
-✅ *\`${usedPrefix + command} autoapprove\`*  
-   ➤ Enable autoapprove and reject to group
-   
-🔢 *\`${usedPrefix + command} antifake\`*  
-   ➤ Enable antifake to group
-
-🔍 *\`${usedPrefix + command} detect\`*  
-   ➤ Feature coming soon…
-
-🎤 *\`${usedPrefix + command} jarvis\`*  
-   ➤ Activate the voice chatbot
-
-🛡️ *\`${usedPrefix + command} antispam\`*  
-   ➤ Detect and block spammers
-
-📎 *\`${usedPrefix + command} antideletelinks\`*  
-   ➤ Delete every links in groups
-
-🚷 *\`${usedPrefix + command} nocmds\`*  
-   ➤ Remove users who misuse commands
-
-🌐 *\`${usedPrefix + command} antilinkall\`*  
-   ➤ Detect and block all types of links
-
-💢 *\`${usedPrefix + command} antitoxic\`*  
-   ➤ Block toxic language
-
-🎵 *\`${usedPrefix + command} antiTiktok\`*  
-   ➤ Block Tiktok links
-
-📹 *\`${usedPrefix + command} antiYoutube\`*  
-   ➤ Block YouTube links
-
-📱 *\`${usedPrefix + command} antiTelegram\`*  
-   ➤ Block Telegram links
-
-📘 *\`${usedPrefix + command} antiFacebook\`*  
-   ➤ Block Facebook links
-
-📸 *\`${usedPrefix + command} antiInstagram\`*  
-   ➤ Block Instagram links
-
-🐦 *\`${usedPrefix + command} antiTwitter\`*  
-   ➤ Block Twitter links
-
-🧵 *\`${usedPrefix + command} antiThreads\`*  
-   ➤ Block Threads links
-
-🎮 *\`${usedPrefix + command} antiDiscord\`*  
-   ➤ Block Discord links
-
-🎮 *\`${usedPrefix + command} antiTwitch\`*  
-   ➤ Block Twitch links
-
-⚠️ *\`${usedPrefix + command} antibot\`*  
-   ➤ Remove bots from groups
-
-> ⚠️ *Bot automatically removes violators* ⚠️
-
-╭━━━━━━━━━━━━━━【 *💬 USER CMD* 】━━━━━━━━━━━━━━╮
-
-🗨️ *\`${usedPrefix + command} chatbot\`*  
-   ➤ Start a conversation with the bot
-
-🤖 *\`${usedPrefix + command} loftchat\`* or *\`${usedPrefix}loftgpt\`*  
-   ➤ Chat with Loftbot (ask anything!)
+◈──『 *ADMIN*』───⳹
+⛊ welcome
+⛊ antilink
+⛊ antilink2
+⛊ nsfw
+⛊ autosticker
+⛊ detect
+⛊ jarvis
+⛊ antispam
+⛊ antitoxic
+╰──────────⳹ 
+◈──『 *USERS*』───⳹
+⛊ autolevelup
+⛊ chatbot 
+╰──────────⳹
+◈──『 *OWNER*』───⳹
+⛊ onlydm
+⛊ grouponly
+⛊ autotype
+⛊ autobio
+⛊ self
+╰──────────⳹
+*📌 Example :*
+*${usedPrefix}on* welcome
+*${usedPrefix}off* welcome
+`)
       throw false
   }
 
   m.reply(
     `
-🚀 *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
+✅ *${type}* Now *${isEnable ? 'Active' : 'Deactive'}* ${isAll ? 'for this bot' : isUser ? '' : 'for this bot'}
 `.trim()
   )
 }
