@@ -15,8 +15,8 @@ const handler = async (m, { conn }) => {
 Want to help improve in Mickeytrony Bot or learn how open-source works?
 
 Here’s how to get started:
-🔗 *GitHub:* https://github.com/PRINCETECH20/prince-bot-md
-📄 *Issues:* https://github.com/PRINCETECH20/prince-bot-md/issues
+🔗 *GitHub:* https://github.com/LOFTXMD23/loft-xmd-s24 
+📄 *Issues:* https://github.com/LOFTXMD23/loft-xmd-s24/issues
 📚 *Guide:* Read the README for setup & contributing steps
 
 ${quote}
