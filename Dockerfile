@@ -1,6 +1,6 @@
 FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/PRINCETECH20/Prince-bot-md /root/prince
+RUN git clone https://github.com/LOFTXMD23/Loft-xmd-s24/root/prince
 
 WORKDIR /root/prince/
 
