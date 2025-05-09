@@ -137,42 +137,30 @@ ${readMore}
 
 
 ${readMore}
-   『 *Downloader* 』
-│
-├─ ✦ ${usedPrefix}play
-├─ ✦ ${usedPrefix}song
-├─ ✦ ${usedPrefix}yts
-├─ ✦ ${usedPrefix}gitclone
-├─ ✦ ${usedPrefix}image
-├─ ✦ ${usedPrefix}ytmp4
-├─ ✦ ${usedPrefix}tiktok
-├─ ✦ ${usedPrefix}instagram
-├─ ✦ ${usedPrefix}facebook
-├─ ✦ ${usedPrefix}mediafire
-│
+┏━━━ʕ•𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐•ʔ━━━┓
+⎪⌲ _${usedPrefix}sticker_
+⎪⌲ _${usedPrefix}take_
+⎪⌲ _${usedPrefix}scircle_
+⎪⌲ _${usedPrefix}smaker_
+⎪⌲ _${usedPrefix}sremovebg_
+⎪⌲ _${usedPrefix}getsticker_
+⎪⌲ _${usedPrefix}emojimix_
+⎪⌲ _${usedPrefix}toimg_
+⎪⌲ _${usedPrefix}tovid_
+⎪⌲ _${usedPrefix}ttp_
+⎪⌲ _${usedPrefix}ttp2_
+⎪⌲ _${usedPrefix}ttp3_
+⎪⌲ _${usedPrefix}ttp4_
+⎪⌲ _${usedPrefix}ttp5_
+⎪⌲ _${usedPrefix}attp_
+⎪⌲ _${usedPrefix}attp2_
+⎪⌲ _${usedPrefix}attp3_
+┗━━━ʕ•📸•ʔ━━━┛
 
 
 ${readMore}
-   『 *Tools* 』
-│─ ✦ ${usedPrefix}vv,read
-├─ ✦ ${usedPrefix}clock
-├─ ✦ ${usedPrefix}who
-├─ ✦ ${usedPrefix}translate
-├─ ✦ ${usedPrefix}tourl
-├─ ✦ ${usedPrefix}tovid
-├─ ✦ ${usedPrefix}summary
-│─ ✦ ${usedPrefix}shazam                                                                                  
-│─ ✦ ${usedPrefix}vcard
 
 ${readMore}
-   『 *AI Features* 』
-│
-├─ ✦ ${usedPrefix}chatgpt
-├─ ✦ ${usedPrefix}deep
-├─ ✦ ${usedPrefix}bing
-├─ ✦ ${usedPrefix}mick
-├─ ✦ ${usedPrefix}ai
-│
 
 
 *For  contart and communication please contart me.*
