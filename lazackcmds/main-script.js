@@ -6,7 +6,7 @@ let msg = await generateWAMessageFromContent(m.chat, {
   locationMessage: {
     degreesLatitude: 0,
     degreesLongitude: 0,
-    name: "Prince bot md repo click here ",
+    name: "LOFT XMD 🚀 repo click here ",
     address: "Tanzania",
     url: "https://github.com/LOFTXMD23/Loft-xmd-s24",
     isLive: true,
