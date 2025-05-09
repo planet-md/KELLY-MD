@@ -157,8 +157,15 @@ ${readMore}
 ⎪⌲ _${usedPrefix}attp3_
 ┗━━━ʕ•📸•ʔ━━━┛
 
-
 ${readMore}
+┏━━━ʕ•𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐•ʔ━━━┓
+⎪⌲🎮 _${usedPrefix}tictactoe_
+⎪⌲🎮 _${usedPrefix}delttt_
+⎪⌲🎮 _${usedPrefix}math_
+⎪⌲🎮 _${usedPrefix}math answer_
+⎪⌲🎮 _${usedPrefix}ppt_
+⎪⌲🎮 _${usedPrefix}slot_
+┗━━━ʕ•💌•ʔ━━━┛
 
 ${readMore}
 
