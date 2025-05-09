@@ -42,7 +42,7 @@ let str = `
 > Library :LOFT INFO TECH
 > Version : 2.9.0
 > source : https://github.com/LOFTXMD23/LOFT-XMD-S24 
-> owner : Mickeymozy
+> owner : Sir Loft
   *@ LOFTXMD is bot made up by LOFT*
   *Thank you for your cooperation.* 
  乂───『 *ENJOY MY BOT*』───乂
