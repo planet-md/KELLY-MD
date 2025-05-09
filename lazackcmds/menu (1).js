@@ -37,7 +37,6 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-
 ╔═══════════════════════════╗
 乂───『 *LOFT XMD*』───乂 
 > Library :LOFT INFO TECH
@@ -63,178 +62,91 @@ ${greeting}
  *Registered Users*: ${rtotalreg}
 
 ${readMore}
-┌────•✧𝘽𝙊𝙏_𝙈𝙀𝙉𝙐✧•────┐
+   『 *Main Menu* 』
+│
+├─ ✦ ${usedPrefix}menu
+├─ ✦ ${usedPrefix}myip
+├─ ✦ ${usedPrefix}info
+├─ ✦ ${usedPrefix}owner
+├─ ✦ ${usedPrefix}runtime
+├─ ✦ ${usedPrefix}ping
+│─ ✦ ${usedPrefix}card
 
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙞𝙣𝙜 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙐𝙥𝙩𝙞𝙢𝙚 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙤𝙩/𝙋𝙧𝙞𝙣𝙘𝙚 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙊𝙬𝙣𝙚𝙧 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙄𝙣𝙛𝙤𝙗𝙤𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙧𝙤𝙪𝙥𝙨 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙡𝙤𝙘𝙠𝙡𝙞𝙨𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙇𝙞𝙨𝙩𝙥𝙧𝙚𝙢 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙜𝙥 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙥𝙥𝙧𝙞𝙣𝙘𝙚 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙈𝙚𝙣𝙪/𝙃𝙚𝙡𝙥/𝙃 ✧
-└───── •✧✧✧✧✧✧• ─────┘
 
 ${readMore}
-┌────•✧𝙊𝙒𝙉𝙀𝙍 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎✧•────┐
+   『 *Group Commands* 』
+│
+├─ ✦ ${usedPrefix}add
+├─ ✦ ${usedPrefix}kick
+├─ ✦ ${usedPrefix}promote
+├─ ✦ ${usedPrefix}demote
+├─ ✦ ${usedPrefix}tagall
+├─ ✦ ${usedPrefix}setname
+├─ ✦ ${usedPrefix}confess
+├─ ✦ ${usedPrefix}link
+├─ ✦ ${usedPrefix}group *open/close*
+│
+╰
 
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙖𝙣𝙘𝙝𝙖𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙐𝙣𝙗𝙖𝙣𝙘𝙖𝙝𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙖𝙣𝙪𝙨𝙚𝙧 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙐𝙣𝙗𝙖𝙣𝙐𝙨𝙚𝙧 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙧𝙚𝙢𝙡𝙞𝙨𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙖𝙣𝙡𝙞𝙨𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘼𝙙𝙙𝙥𝙧𝙚𝙢 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙜𝙘 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙅𝙤𝙞𝙣 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙩𝙭 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙥𝙥𝙗𝙤𝙩 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙥𝙧𝙚𝙛𝙞𝙭 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙍𝙚𝙨𝙚𝙩𝙥𝙧𝙚𝙛𝙞𝙭 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙚𝙩𝙛𝙞𝙡𝙚 ✧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙚𝙩𝙥𝙡𝙪𝙜𝙞𝙣 ✧
-└───── •✧✧✧✧✧✧✧✧✧✧• ─────┘
+${readMore}
+    『 *Fun Commands* 』
+│
+├─ ✦ ${usedPrefix}getsticker
+├─ ✦ ${usedPrefix}readmore
+├─ ✦ ${usedPrefix}stupid
+├─ ✦ ${usedPrefix}waste
+├─ ✦ ${usedPrefix}emojimix
+├─ ✦ ${usedPrefix}love
+├─ ✦ ${usedPrefix}ship
+│
+
+
+${readMore}
+   『 *Downloader* 』
+│
+├─ ✦ ${usedPrefix}play
+├─ ✦ ${usedPrefix}song
+├─ ✦ ${usedPrefix}yts
+├─ ✦ ${usedPrefix}gitclone
+├─ ✦ ${usedPrefix}image
+├─ ✦ ${usedPrefix}ytmp4
+├─ ✦ ${usedPrefix}tiktok
+├─ ✦ ${usedPrefix}instagram
+├─ ✦ ${usedPrefix}facebook
+├─ ✦ ${usedPrefix}mediafire
+│
+
+
+${readMore}
+   『 *Tools* 』
+│─ ✦ ${usedPrefix}vv,read
+├─ ✦ ${usedPrefix}clock
+├─ ✦ ${usedPrefix}who
+├─ ✦ ${usedPrefix}translate
+├─ ✦ ${usedPrefix}tourl
+├─ ✦ ${usedPrefix}tovid
+├─ ✦ ${usedPrefix}summary
+│─ ✦ ${usedPrefix}shazam                                                                                  
+│─ ✦ ${usedPrefix}vcard
+
+${readMore}
+   『 *AI Features* 』
+│
+├─ ✦ ${usedPrefix}chatgpt
+├─ ✦ ${usedPrefix}deep
+├─ ✦ ${usedPrefix}bing
+├─ ✦ ${usedPrefix}mick
+├─ ✦ ${usedPrefix}ai
+│
+
+
+*For  contart and communication please contart me.*
+
+💡 *Tip: Use the prefix and one of the commands above. For feedback, use ${usedPrefix}report and type your opinion*
+`
    
-${readMore}
-┌────•✧𝙂𝙍𝙊𝙐𝙋_𝙈𝙀𝙉𝙐✧•────┐
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙆𝙞𝙘𝙠      𝙩𝙖𝙜/𝙨𝙡𝙞𝙙𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙧𝙤𝙢𝙤𝙩𝙚   𝙩𝙖𝙜/𝙨𝙡𝙞𝙙𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘿𝙚𝙢𝙤𝙩𝙚    𝙩𝙖𝙜/𝙨𝙡𝙞𝙙𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙍𝙚𝙨𝙚𝙩𝙡𝙞𝙣𝙠   𝙧𝙚𝙫𝙤𝙠𝙚 𝙜𝙘𝙡𝙞𝙣𝙠
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙄𝙣𝙛𝙤𝙜𝙧𝙤𝙪𝙥   𝙜𝙘 𝙞𝙣𝙛𝙤
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙇𝙞𝙣𝙠        𝙘𝙪𝙧𝙧𝙚𝙣𝙩 𝙜𝙘𝙡𝙞𝙣𝙠
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙥𝙥      𝙘𝙪𝙧𝙧𝙚𝙣𝙩 𝙜𝙘 𝙥𝙧𝙤𝙛𝙞𝙡𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙣𝙖𝙢𝙚    𝙜𝙘 𝙣𝙖𝙢𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙙𝙚𝙨𝙘     𝙜𝙘 𝙙𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙬𝙚𝙡𝙘𝙤𝙢𝙚  𝙬𝙚𝙡𝙘𝙤𝙢𝙚 𝙢𝙨𝙜
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙚𝙩𝙗𝙮𝙚      𝙗𝙮𝙚 𝙢𝙨𝙜
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙃𝙞𝙙𝙚𝙩𝙖𝙜     𝙩𝙖𝙜 𝙖𝙣𝙮𝙩𝙝𝙞𝙣𝙜 
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙒𝙖𝙧𝙣       𝙬𝙖𝙧𝙣 𝙪𝙨𝙚𝙧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙐𝙣𝙬𝙖𝙧𝙣     𝙪𝙣𝙬𝙖𝙧 𝙪𝙨𝙚𝙧
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙧𝙤𝙪𝙥      𝙤𝙥𝙚𝙣/𝙘𝙡𝙤𝙨𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙀𝙣𝙖𝙗𝙡𝙚      𝙛𝙤𝙧 𝙘𝙢𝙙𝙨
-┊ ꒰ ͜͡➸${usedPrefix}𝙊𝙉/𝙊𝙁𝙁      𝙛𝙤𝙧 𝙘𝙢𝙙𝙨
-└───── •✧✧✧✧✧✧✧• ──────┘
-
-${readMore}
-┌────•✧𝘿𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎✧•────┐
-
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙡𝙖𝙮     𝙉𝙖𝙖𝙩...
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙡𝙖𝙮2    𝙉𝙖𝙖𝙩...
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙄𝙜      𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙁𝙗       𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙄𝙢𝙜      𝙉𝙖𝙢𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙙𝙧𝙞𝙫𝙚     𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙂𝙞𝙩𝙘𝙡𝙤𝙣𝙚    𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙞𝙜𝙨𝙩𝙖𝙡𝙠      𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙈𝙚𝙙𝙞𝙖𝙛𝙞𝙧𝙚     𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙈𝙛𝙞𝙧𝙚      𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙏𝙞𝙠𝙩𝙤𝙠.     𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙏𝙞𝙠𝙩𝙤𝙠𝙨𝙩𝙖𝙡𝙠     𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙏𝙬𝙞𝙩𝙩𝙚𝙧     𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙔𝙩𝙨      𝙉𝙖𝙢𝙚/𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙔𝙩𝙢𝙥4    𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙔𝙩𝙢𝙥3    𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙔𝙩𝙖      𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙎𝙤𝙣𝙜    𝙉𝙖𝙢𝙚
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙑𝙞𝙙𝙚𝙤    𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝘼𝙥𝙠     𝙉𝙖𝙢𝙚/𝙐𝙍𝙇
-┊ ꒰ ͜͡➸ ${usedPrefix}𝙋𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩    𝙐𝙍𝙇
-└───── •✧✧✧✧✧✧✧✧✧• ─────┘
-
-${readMore}
-┏━━━ʕ•𝙁𝙐𝙉 𝙈𝙀𝙉𝙐•ʔ━━━┓
-
-⎪⌲ _${usedPrefix}character_
-⎪⌲ _${usedPrefix}truth_
-⎪⌲ _${usedPrefix}dare_
-⎪⌲ _${usedPrefix}flirt_
-⎪⌲ _${usedPrefix}gay_
-⎪⌲ _${usedPrefix}shayeri_
-⎪⌲ _${usedPrefix}ship_
-⎪⌲ _${usedPrefix}waste_
-⎪⌲ _${usedPrefix}simpcard_
-⎪⌲ _${usedPrefix}hornycard_
-⎪⌲ _${usedPrefix}ytcomment_
-⎪⌲ _${usedPrefix}stupid_
-⎪⌲ _${usedPrefix}lolicon_
-
-┗━━━ʕ•😂•ʔ━━━┛
-
-${readMore}
-┏━━━ʕ•𝙂𝘼𝙈𝙀 𝙈𝙀𝙉𝙐•ʔ━━━┓
-
-⎪⌲🎮 _${usedPrefix}tictactoe_
-⎪⌲🎮 _${usedPrefix}delttt_
-⎪⌲🎮 _${usedPrefix}math_
-⎪⌲🎮 _${usedPrefix}math answer_
-⎪⌲🎮 _${usedPrefix}ppt_
-⎪⌲🎮 _${usedPrefix}slot_
-
-┗━━━ʕ•🕹️•ʔ━━━┛
-
-${readMore}
-┏━━━ʕ•𝙎𝙏𝙄𝘾𝙆𝙀𝙍 𝙈𝙀𝙉𝙐•ʔ━━━┓
-
-⎪⌲ _${usedPrefix}sticker_
-⎪⌲ _${usedPrefix}take_
-⎪⌲ _${usedPrefix}scircle_
-⎪⌲ _${usedPrefix}smaker_
-⎪⌲ _${usedPrefix}sremovebg_
-⎪⌲ _${usedPrefix}getsticker_
-⎪⌲ _${usedPrefix}emojimix_
-⎪⌲ _${usedPrefix}toimg_
-⎪⌲ _${usedPrefix}tovid_
-⎪⌲ _${usedPrefix}ttp_
-⎪⌲ _${usedPrefix}ttp2_
-⎪☞ _${usedPrefix}ttp3_
-⎪⌲ _${usedPrefix}ttp4_
-⎪⌲ _${usedPrefix}ttp5_
-⎪⌲ _${usedPrefix}attp_
-⎪⌲ _${usedPrefix}attp2_
-⎪⌲ _${usedPrefix}attp3_
-
-┗━━━ʕ•📸•ʔ━━━┛
-          
- ${readMore}         
-   ┏━━━ʕ•𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐•ʔ━━━┓
-
-⎪⌲ _${usedPrefix}autosticker_
-⎪⌲ _${usedPrefix}pdf_
-⎪⌲ _${usedPrefix}whatmusic_
-⎪⌲ _${usedPrefix}calc_
-⎪⌲ _${usedPrefix}google_
-⎪⌲ _${usedPrefix}lyrics_
-⎪⌲ _${usedPrefix}readmore_
-⎪⌲ _${usedPrefix}ssweb_
-⎪☞ _${usedPrefix}tts_
-⎪⌲ _${usedPrefix}translate_
-⎪⌲ _${usedPrefix}tourl_
-⎪⌲ _${usedPrefix}wikipedia_
-⎪⌲ _${usedPrefix}nowa_
-⎪⌲ _${usedPrefix}qrmaker_
-⎪⌲ _${usedPrefix}readqr_
-⎪⌲ _${usedPrefix}styletext_
-⎪⌲ _${usedPrefix}weather_
-⎪⌲ _${usedPrefix}siri_
-⎪⌲ _${usedPrefix}alexa_
-⎪⌲ _${usedPrefix}dalle_
-⎪⌲ _${usedPrefix}wa_
-⎪⌲ _${usedPrefix}itunes_
-⎪⌲ _${usedPrefix}tinyurl/shorturl_
-⎪⌲ _${usedPrefix}readvo_
-⎪⌲ _${usedPrefix}true_
-
-┗━━━━━━━ʕ•🧬•ʔ━━━━━━┛
-
-loft_
-
-// await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
-
+       // await conn.sendMessage(m.chat, { video: { url: [pp, pp2, pp3, pp4, pp5, pp6, pp7, pp8, pp9, pp10, pp11, pp12, pp13, pp14, pp15].getRandom() }, gifPlayback: true, caption: text.trim(), mentions: [m.sender] }, { quoted: estilo })
+    
        await conn.sendMessage(
         m.chat,
         {
@@ -245,22 +157,22 @@ loft_
             isForwarded: true,
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '+120363398106360290@newsletter', // Replace with actual channel JID
-              newsletterName: 'LOFTXMD', // Replace with actual channel name
+              newsletterJid: '120363314875614529@newsletter', // Replace with actual channel JID
+              newsletterName: 'MICKDAD', // Replace with actual channel name
               serverMessageId: -1,
             },
           },
         },
         { quoted: m }
       );
-
+      
       m.react(done);
-
+      
 
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu2', 'help2'] 
+handler.command = ['menu', 'help'] 
 
 export default handler
 function clockString(ms) {
@@ -268,7 +180,7 @@ function clockString(ms) {
     let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
     let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
-
+    
     function ucapan() {
       const time = moment.tz('Asia/Kolkata').format('HH')
       let res = "happy early in the day☀️"
