@@ -38,14 +38,14 @@ let quote = quotes[Math.floor(Math.random() * quotes.length)];
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 ╔═══════════════════════════╗
-乂───『 *MICKEY-TRONY BOT*』───乂 
-> Library :MICKEY INFO TECH
+乂───『 *LOFT-XMD-S24*』───乂 
+> Library :LOFT XMD 
 > Version : 2.9.0
 > source : https://github.com/LOFTXMD23/loft-xmd-s24
 > owner : Mickeymozy
   *@ LOFTXMD is bot made up by Sir loft*
   *Thank you for your cooperation.* 
- 乂───『 *ENYOY MY BOT*』───乂
+ 乂───『 *ENJOY MY BOT*』───乂
 ${readMore}
 『 *COMMAND MENU* 』 
 *use this command by start with prefix*
@@ -83,19 +83,35 @@ ${readMore}
   ╰━━━━━━━━━━━━━━━━━━━╯
 
 ${readMore}
-   『 *Group Commands* 』
-│
-├─ ✦ ${usedPrefix}add
-├─ ✦ ${usedPrefix}kick
-├─ ✦ ${usedPrefix}promote
-├─ ✦ ${usedPrefix}demote
-├─ ✦ ${usedPrefix}tagall
-├─ ✦ ${usedPrefix}setname
-├─ ✦ ${usedPrefix}confess
-├─ ✦ ${usedPrefix}link
-├─ ✦ ${usedPrefix}group *open/close*
-│
-╰
+   ✦ ───『 *ɢʀᴏᴜᴘ* 』─── ⚝
+  ◈ .ɢᴇᴛʙɪᴏ <@ᴛᴀɢ/ʀᴇᴘʟʏ>  Ⓛ
+  ◈ .ᴀɴɪᴍᴇϙᴜᴏᴛᴇ
+  ◈ .Sᴇᴛᴅᴇsᴄ <ᴛᴇxᴛ>
+  ◈ .sᴇᴛɴᴀᴍᴇ <ᴛᴇxᴛ>
+  ◈ .ᴀᴅᴅ
+  ◈ .ᴅᴇʟᴇᴛᴇ
+  ◈ .ᴅᴇʟᴡᴀʀɴ @ᴜsᴇʀ
+  ◈ .ᴅᴇᴍᴏᴛᴇ (@ᴛᴀɢ)
+  ◈ .ɪɴғᴏɢᴘ
+  ◈ .ʜɪᴅᴇᴛᴀɢ
+  ◈ .ɪɴᴠɪᴛᴇ <923xxx>
+  ◈ .ᴋɪᴄᴋ @ᴜsᴇʀ
+  ◈ .ʟɪɴᴋ
+  ◈ .ᴘᴏʟʟ ϙᴜᴇsᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ|ᴏᴘᴛɪᴏɴ
+  ◈ .ᴘʀᴏғɪʟᴇ
+  ◈ .ᴘʀᴏᴍᴏᴛᴇ
+  ◈ .ʀᴇsᴇᴛʟɪɴᴋ
+  ◈ .sᴇᴛʙʏᴇ <ᴛᴇxᴛ>
+  ◈ .ɢʀᴏᴜᴘ *ᴏᴘᴇɴ/ᴄʟᴏsᴇ*
+  ◈ .sᴇᴛᴡᴇʟᴄᴏᴍᴇ <ᴛᴇxᴛ>
+  ◈ .sɪᴍᴜʟᴀᴛᴇ <ᴇᴠᴇɴᴛ> @ᴜsᴇʀ
+  ◈ .sᴛᴀғғ
+  ◈ .ᴛᴀɢᴀʟʟ
+  ◈ .ᴛᴏᴛᴀɢ
+  ◈ .ᴡᴀʀɴ @ᴜsᴇʀ
+  ◈ .ᴡᴀʀɴs
+  ◈ .ᴍᴀɪɴ
+  ╰──────────⳹
 
 ${readMore}
     『 *Fun Commands* 』
