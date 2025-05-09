@@ -27,7 +27,7 @@
 
  🌍 **LOFT-XMD SUPPORT**
 
-<a href="https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V">
+<a href="https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610">
   <img height="30" title="SUPPORT GROUP" src="https://img.shields.io/badge/Support channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
