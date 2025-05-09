@@ -197,7 +197,9 @@ let str = `
 ⎪⌲ _${usedPrefix}true_
 ┗━━━━━━━ʕ•🧬•ʔ━━━━━━┛`; // 
 
-ENJOY YOUR POWERFUL BOT LOFT-XMD-S24.
+
+
+😁 *Tip*: Use the prefix *${usedPrefix}* and one of the commands above. For feedback, use ${usedPrefix}report.
 `
 
     
