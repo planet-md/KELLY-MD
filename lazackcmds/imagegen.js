@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
       contactMessage: {
-        displayName: `princetech`,
+        displayName: `loftxmd`,
         vcard: `BEGIN:VCARD\nVERSION:3.0\nN:; princetechy;;;\nFN:princetech\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
@@ -51,10 +51,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
           text: `✨ *Search completed!* to use this feature then, consider supporting us: https://github.com/Mickeymozy/Denzel-V2/`,
           contextInfo: {
             externalAdReply: {
-              title: '🔍 Powered by Team Princetech!',
+              title: '🔍 Powered by Team Sir Loft!',
               body: 'Explore, Innovate, Inspire.',
               thumbnailUrl: sponsorThumbnail,
-              sourceUrl: 'https://github.com/PRINCETECH20/prince-bot-md',
+              sourceUrl: 'https://github.com/LOFTXMD23/loft-xmd-s24',
               mediaType: 1,
               renderLargerThumbnail: true,
             },
