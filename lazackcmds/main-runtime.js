@@ -1,4 +1,4 @@
-//made with ❤️ by Shizo & redesigned by Lazack
+//made with ❤️ by sir loft 
 import { cpus as _cpus, totalmem, freemem } from 'os'
 import util from 'util'
 import os from 'os'
@@ -65,7 +65,7 @@ let handler = async (m, { conn, isRowner }) => {
   let neww = performance.now()
   let speed = neww - old
 
-  let text = `*PRINCE BOT MD*\n\n` +
+  let text = `*LOFT XMD*\n\n` +
     ` *Running Time:*\n${muptime}\n\n` +
     ` *Speed:* ${speed.toFixed(2)} ms\n\n` +
     ` *CPU Info:*\n` +
@@ -79,7 +79,7 @@ let handler = async (m, { conn, isRowner }) => {
     ` *Chats:* ${chats.length}\n` +
     ` *Groups:* ${groupsIn.length}\n\n` +
     `────────────────────\n` +
-    `👨‍💻 Made with bot by *Team Princetech*`
+    `👨‍💻 Made with bot by *Team Sir Loft*`
 
   await conn.sendMessage(m.chat, { text: text, mentions: [m.sender] }, { quoted: m })
 }
