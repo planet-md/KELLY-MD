@@ -32,7 +32,7 @@ ${quote}
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363419996770740@newsletter',
-        newsletterName: 'PRINCEBOT',
+        newsletterName: 'LOFTXMD',
         serverMessageId: 143
       }
     }
