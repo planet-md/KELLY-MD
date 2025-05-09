@@ -82,19 +82,33 @@ ${readMore}
 └───── •✧✧✧✧✧✧✧✧✧✧• ─────┘
 
 ${readMore}
-   『 *Group Commands* 』
-│
-├─ ✦ ${usedPrefix}add
-├─ ✦ ${usedPrefix}kick
-├─ ✦ ${usedPrefix}promote
-├─ ✦ ${usedPrefix}demote
-├─ ✦ ${usedPrefix}tagall
-├─ ✦ ${usedPrefix}setname
-├─ ✦ ${usedPrefix}confess
-├─ ✦ ${usedPrefix}link
-├─ ✦ ${usedPrefix}group *open/close*
-│
-╰
+ ┏━━━ʕ•𝙏𝙊𝙊𝙇𝙎 𝙈𝙀𝙉𝙐•ʔ━━━┓
+⎪⌲ _${usedPrefix}autosticker_
+⎪⌲ _${usedPrefix}pdf_
+⎪⌲ _${usedPrefix}whatmusic_
+⎪⌲ _${usedPrefix}calc_
+⎪⌲ _${usedPrefix}google_
+⎪⌲ _${usedPrefix}lyrics_
+⎪⌲ _${usedPrefix}readmore_
+⎪⌲ _${usedPrefix}ssweb_
+⎪⌲ _${usedPrefix}tts_
+⎪⌲ _${usedPrefix}translate_
+⎪⌲ _${usedPrefix}tourl_
+⎪⌲ _${usedPrefix}wikipedia_
+⎪⌲ _${usedPrefix}nowa_
+⎪⌲ _${usedPrefix}qrmaker_
+⎪⌲ _${usedPrefix}readqr_
+⎪⌲ _${usedPrefix}styletext_
+⎪⌲ _${usedPrefix}weather_
+⎪⌲ _${usedPrefix}siri_
+⎪⌲ _${usedPrefix}alexa_
+⎪⌲ _${usedPrefix}dalle_
+⎪⌲ _${usedPrefix}wa_
+⎪⌲ _${usedPrefix}itunes_
+⎪⌲ _${usedPrefix}tinyurl/shorturl_
+⎪⌲ _${usedPrefix}readvo_
+⎪⌲ _${usedPrefix}true_
+┗━━━━━━━ʕ•🚀•ʔ━━━━━━┛
 
 ${readMore}
     『 *Fun Commands* 』
