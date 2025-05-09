@@ -3,7 +3,7 @@ import { join } from 'path'
 import axios from 'axios'
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/PRINCETECH20/Prince-bot-md'
+  const githubRepoURL = 'https://github.com/LOFTXMD23/Loft-xmd-s24'
 
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/)
@@ -15,10 +15,10 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-      PRINCE TEH  💦☣
+      LOFT XMD  💦☣
 THANKS FOR SUPPORT 
 
-MAKE PAYMENT THROUGH ACCOUNT NUMBER 0654003502
+MAKE PAYMENT THROUGH ACCOUNT NUMBER +255778018545
 
 \`\`\`NAME \`\`\`
 `.trim()
