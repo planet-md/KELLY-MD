@@ -117,7 +117,7 @@ ${readMore}
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363398106360290@newsletter',
+        newsletterJid: '120363314875614529@newsletter',
         newsletterName: 'LOFT XMD MENU',
         serverMessageId: 143
       }
