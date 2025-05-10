@@ -1,43 +1,62 @@
-const linkRegex = /(?:chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})|https:\/\/whatsapp\.com\/channel\/[0-9A-Za-z]+)/i;
+export async function all(m) {
+  const settings = global.db.data.settings[this.user.jid] || {};
 
-export async function before(m, { conn, isAdmin, isBotAdmin }) {
-  if (m.isBaileys && m.fromMe) return true;
-  if (!m.isGroup) return false;
+  // 🛑 Feature toggle from environment
+  const antilinkEnabled = process.env.ANTILINK === 'true';
+  if (!antilinkEnabled) return true;
 
-  // Ensure chat data exists in the database
-  let chat = global.db.data.chats[m.chat];
-  if (typeof chat !== 'object') global.db.data.chats[m.chat] = {};
-  chat = global.db.data.chats[m.chat];
+  const isGroupInvite =
+    m.mtype === 'groupInviteMessage' ||
+    m.text?.startsWith?.('https://chat') ||
+    m.text?.toLowerCase?.().includes('open this link');
 
-  // Log current settings to confirm they are correctly loaded
-  console.log(`AntiLink is ${chat.antiLink}, Admin status: ${isAdmin}, Bot Admin: ${isBotAdmin}`);
+  if (isGroupInvite && m.isGroup && !m.isBaileys) {
+    const groupMetadata = await this.groupMetadata(m.chat);
+    const botNumber = this.user.jid;
+    const isBotAdmin = groupMetadata.participants
+      .find(p => p.id === botNumber)?.admin === 'admin';
 
-  // Check if message contains a group link and antiLink is enabled
-  const isGroupLink = linkRegex.exec(m.text);
-  if (chat.antiLink && isGroupLink && !isAdmin) {
-    console.log(`Detected a link by non-admin: ${m.sender}`);
+    const senderUsername = m.sender?.split('@')[0] || 'user';
 
-    // Check if the bot is admin to proceed with removing the user
-    if (isBotAdmin) {
-      const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`;
-      if (m.text.includes(linkThisGroup)) return true; // Ignore links to the same group
-
-      await conn.reply(
-        m.chat,
-        `*≡ Link Detected*
-        
-We do not allow links from other groups. 
-I'm sorry *@${m.sender.split('@')[0]}*, you will be removed from the group.`,
-        null,
-        { mentions: [m.sender] }
-      );
-      // Delete the message with the link
-      await conn.sendMessage(m.chat, { delete: m.key });
-      // Remove the user from the group
-      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
-    } else {
-      console.log("Bot is not an admin and cannot remove members.");
-    }
-  }
-  return true;
+    const commonContext = {
+      mentions: [m.sender],
+      contextInfo: {
+        forwardingScore: 999,
+        isForwarded: true,
+        forwardedNewsletterMessageInfo: {
+          newsletterJid: '120363398106360290@newsletter',
+          newsletterName: '◢◤ LOFT XMD ◢◤',
+          serverMessageId: 143,
+        }
       }
+    };
+
+    if (isBotAdmin) {
+      // Delete group link
+      await this.sendMessage(m.chat, {
+        delete: {
+          remoteJid: m.chat,
+          fromMe: false,
+          id: m.key.id,
+          participant: m.sender
+        }
+      });
+
+      await this.sendMessage(m.chat, {
+        text: `🚫 @${senderUsername}, group links are not allowed in this group.`,
+        ...commonContext
+      });
+
+    } else {
+      // Notify if not admin
+      await this.sendMessage(m.chat, {
+        text: `🚫 Group link detected from @${senderUsername}, but I can't delete it because I'm not an admin.\n\n👑 Ask an admin to promote me for better moderation.`,
+        ...commonContext
+      });
+    }
+
+    await m.react('⚠️');
+  }
+
+  return true;
+}
