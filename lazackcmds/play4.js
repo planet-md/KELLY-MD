@@ -1,70 +1,98 @@
 import axios from "axios";
-import lazacksongs from "yt-search";
+import ytSearch from "yt-search";
 
 let handler = async (m, { conn, text, botname }) => {
-    if (!text) return m.reply("Please specify a song you want to play.");
+  if (!text) return m.reply("❌ What song do you want to download?");
 
-    await m.reply("Searching...");
+  await m.reply("🔄 *Loft xmd Fetching your audio... Please wait...*");
 
-    try {
-        let search = await lazacksongs(text);
-        let video = search.videos[0];
+  try {
+    let search = await ytSearch(text);
+    let video = search.videos[0];
 
-        if (!video) return m.reply("No results found.");
+    if (!video) return m.reply("❌ No results found. Please refine your search.");
 
-        let link = video.url;
-        let apis = [
-            `https://apis.davidcyriltech.my.id/youtube/mp3?url=${link}`,
-            `https://api.ryzendesu.vip/api/downloader/yymp3?url=${link}`,
-        ];
+    let link = video.url;
+    let apis = [
+      `https://apis.davidcyriltech.my.id/youtube/mp3?url=${link}`,
+      `https://api.ryzendesu.vip/api/downloader/ytmp3?url=${link}`,
+      `https://api.akuari.my.id/downloader/youtubeaudio?link=${link}`
+    ];
 
-        for (const api of apis) {
-            try {
-                let { data } = await axios.get(api);
-                if (data.status === 200) {
-                    let audioUrl = data.result?.downloadUrl || data.url;
-                    let songData = {
-                        title: data.result?.title || video.title,
-                        artist: data.result?.author || video.author.name,
-                        thumbnail: data.result?.image || video.thumbnail,
-                        videoUrl: link,
-                    };
+    for (const api of apis) {
+      try {
+        let { data } = await axios.get(api);
 
-                    await conn.sendMessage(m.chat, {
-                        image: { url: songData.thumbnail },
-                        caption: `
-*Title:* ${songData.title}
-*Artist:* ${songData.artist}
-*Audio will be sent shortly.*
-                        `,
-                    }, { quoted: m });
+        if (data.status === 200 || data.success) {
+          let audioUrl = data.result?.downloadUrl || data.url;
+          let songData = {
+            title: data.result?.title || video.title,
+            artist: data.result?.author || video.author.name,
+            thumbnail: data.result?.image || video.thumbnail,
+            videoUrl: link
+          };
 
-                    await m.reply("Please wait... The audio is being prepared.");
+          // Send metadata & thumbnail
+          await conn.sendMessage(
+            m.chat,
+            {
+              image: { url: songData.thumbnail },
+              caption: `SYLIVANUS THE SILVA MD BOT
+╭═════════════════⊷
+║ 🎶 *Title:* ${songData.title}
+║ 🎤 *Artist:* ${songData.artist}
+║ 🔗 THANK YOU SORRY NO URL TO BE SHARED
+╰═════════════════⊷
+*Powered by Sir Loft*`
+            },
+            { quoted: m }
+          );
 
-                    await conn.sendMessage(m.chat, {
-                        audio: { url: audioUrl },
-                        mimetype: "audio/mp4",
-                    }, { quoted: m });
+          await m.reply("📤 *Sending your audio...*");
 
-                    await m.reply("Enjoy the audio from Loft xmd!");
+          // Send as an audio file
+          await conn.sendMessage(
+            m.chat,
+            {
+              audio: { url: audioUrl },
+              mimetype: "audio/mp4",
+            },
+            { quoted: m }
+          );
 
-                    return; // Exit the loop once a successful response is processed
-                }
-            } catch (e) {
-                console.error(`API Error (${api}):`, e.message);
-                continue; // Skip to the next API if the current one fails
-            }
+          await m.reply("📤 *Sending your MP3 file...*");
+
+          // Send as a document file
+          await conn.sendMessage(
+            m.chat,
+            {
+              document: { url: audioUrl },
+              mimetype: "audio/mp3",
+              fileName: `${songData.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
+            },
+            { quoted: m }
+          );
+
+          // Send success message
+          await m.reply("✅ *Silva MD – World-class bot just successfully sent you what you requested! 🎶*");
+
+          return; // Stop execution if successful
         }
-
-        return m.reply("Sorry, the server failed to find the requested song.");
-    } catch (error) {
-        console.error("Handler Error:", error.message);
-        return m.reply("An error occurred: " + error.message);
+      } catch (e) {
+        console.error(`API Error (${api}):`, e.message);
+        continue; // Try next API if one fails
+      }
     }
+
+    // If all APIs fail
+    return m.reply("⚠️ An error occurred. All APIs might be down or unable to process the request.");
+  } catch (error) {
+    return m.reply("❌ Download failed\n" + error.message);
+  }
 };
 
-handler.help = ["play4 <song>"];
-handler.tags = ["music"];
-handler.command = /^(play|song)$/i;
+handler.help = ["play"];
+handler.tags = ["downloader"];
+handler.command = /^play$/i;
 
 export default handler;
