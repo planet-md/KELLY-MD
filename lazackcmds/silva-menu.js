@@ -67,7 +67,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
                         ...(await prepareWAMessageMedia({
-                            image: { url: 'https://files.catbox.moe/8324jm.jpg' }
+                            image: { url: 'https://i.imgur.com/6Hz0hvN.jpeg' }
                         }, { upload: conn.waUploadToServer })),
                         title: null,
                         subtitle: null,
