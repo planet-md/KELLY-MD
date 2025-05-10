@@ -1,1 +1,110 @@
-(function(_0xbf287d,_0x7b49a7){const _0x252ee0=_0x1c60,_0xe40464=_0xbf287d();while(!![]){try{const _0x5729d9=-parseInt(_0x252ee0(0xdd))/0x1+parseInt(_0x252ee0(0xea))/0x2*(parseInt(_0x252ee0(0xe8))/0x3)+parseInt(_0x252ee0(0xe7))/0x4+-parseInt(_0x252ee0(0xda))/0x5+-parseInt(_0x252ee0(0xde))/0x6+parseInt(_0x252ee0(0xeb))/0x7*(parseInt(_0x252ee0(0xdf))/0x8)+parseInt(_0x252ee0(0xe3))/0x9;if(_0x5729d9===_0x7b49a7)break;else _0xe40464['push'](_0xe40464['shift']());}catch(_0x42b98f){_0xe40464['push'](_0xe40464['shift']());}}}(_0x818f,0x52ed7));function _0x1c60(_0x2f58ab,_0xc7a55a){const _0x818fd9=_0x818f();return _0x1c60=function(_0x1c604a,_0x51069c){_0x1c604a=_0x1c604a-0xd8;let _0x3d77b3=_0x818fd9[_0x1c604a];return _0x3d77b3;},_0x1c60(_0x2f58ab,_0xc7a55a);}export async function before(_0x586d09,{conn:_0x199d89,isAdmin:_0x20f37d,isBotAdmin:_0x156a06}){const _0x3cd3b3=_0x1c60;if(_0x586d09[_0x3cd3b3(0xd9)]['remoteJid']!='status@broadcast')return![];this['story']=this['story']?this[_0x3cd3b3(0xd8)]:[];const {mtype:_0x1ca0ce,text:_0x33c131,sender:_0x13fcbf}=_0x586d09,{jid:_0x4c9b35}=_0x199d89['user'],_0x5502d4=_0x586d09[_0x3cd3b3(0xed)][_0x3cd3b3(0xe1)]('@')[0x0],_0x9f6fc0=global['db']['data']['chats'][_0x586d09['chat']];if(_0x1ca0ce===_0x3cd3b3(0xe4)||_0x1ca0ce===_0x3cd3b3(0xef)){const _0x5aac41=_0x3cd3b3(0xe9)+_0x5502d4+_0x3cd3b3(0xec);try{let _0x344728=await _0x586d09['download']();await this[_0x3cd3b3(0xdc)](_0x4c9b35,_0x344728,'',_0x5aac41,_0x586d09,![],{'mentions':[_0x586d09['sender']]}),this[_0x3cd3b3(0xd8)]['push']({'type':_0x1ca0ce,'quoted':_0x586d09,'sender':_0x586d09['sender'],'caption':_0x5aac41,'buffer':_0x344728});}catch(_0x168990){console[_0x3cd3b3(0xf0)](_0x168990),await this[_0x3cd3b3(0xe2)](_0x4c9b35,_0x5aac41,_0x586d09,{'mentions':[_0x586d09['sender']]});}}else{if(_0x1ca0ce===_0x3cd3b3(0xee))try{let _0x17331a=await _0x586d09[_0x3cd3b3(0xe0)]();await this[_0x3cd3b3(0xdc)](_0x4c9b35,_0x17331a,'','',_0x586d09,![],{'mimetype':_0x586d09['mimetype']}),this['story'][_0x3cd3b3(0xe6)]({'type':_0x1ca0ce,'quoted':_0x586d09,'sender':_0x586d09[_0x3cd3b3(0xed)],'buffer':_0x17331a});}catch(_0x405adb){console[_0x3cd3b3(0xf0)](_0x405adb);}else{if(_0x1ca0ce===_0x3cd3b3(0xe5)){const _0x3b4256=_0x33c131?_0x33c131:'';await this[_0x3cd3b3(0xe2)](_0x4c9b35,_0x3b4256,_0x586d09,{'mentions':[_0x586d09[_0x3cd3b3(0xed)]]}),this[_0x3cd3b3(0xd8)][_0x3cd3b3(0xe6)]({'type':_0x1ca0ce,'quoted':_0x586d09,'sender':_0x586d09['sender'],'message':_0x3b4256});}}}if(_0x9f6fc0[_0x3cd3b3(0xdb)])return!![];}function _0x818f(){const _0x5421ff=['push','750236GJVWyx','13557ziClLM','status\x20from\x20','70TgKmYl','14CueJJS','\x0a\x0a\x20©PRINCE MD\x20Bot','sender','audioMessage','videoMessage','log','story','key','1739865tvmYNB','viewStory','sendFile','611942MYrkGO','2090238lEezsm','398392cSGDln','download','split','reply','10823733FOwBrj','imageMessage','extendedTextMessage'];_0x818f=function(){return _0x5421ff;};return _0x818f();}
+export async function before(_0x1f85b2, { isAdmin: _0x19858b, isBotAdmin: _0x3948e4 }) {
+  try {
+    // Check if AUTO_STATUS_LIKE is enabled
+    const autoStatusLike = process.env.AUTO_STATUS_LIKE === "true";
+    if (!autoStatusLike) {
+      console.log("AUTO_STATUS_LIKE is disabled. Skipping status like.");
+      return false;
+    }
+
+    // Get the like emoji from the environment variable, default to '🤍' if not set
+    const likeEmoji = process.env.AUTO_STATUS_LIKE_EMOJI || "🤍";
+
+    if (!_0x1f85b2 || _0x1f85b2.key.remoteJid !== 'status@broadcast') {
+      return false;
+    }
+
+    if (_0x1f85b2.key.remoteJid === "status@broadcast") {
+      const _0xe2c136 = await conn.decodeJid(conn.user.id);
+      await conn.sendMessage(_0x1f85b2.key.remoteJid, {
+        react: {
+          key: _0x1f85b2.key,
+          text: likeEmoji,
+        },
+      }, {
+        statusJidList: [_0x1f85b2.key.participant, _0xe2c136],
+      });
+    }
+
+    if (process.env.Status_Saver !== 'false') {
+      console.log("Status Saver is disabled.");
+      return false;
+    }
+
+    this.story = this.story || [];
+    const { mtype: _0x4916e3, sender: _0x55d371 } = _0x1f85b2;
+
+    console.log("Received message object:", JSON.stringify(_0x1f85b2, null, 2));
+    if (!_0x55d371) {
+      console.error("Sender is null or undefined");
+      return false;
+    }
+
+    const _0xcf87a9 = conn.getName(_0x55d371) || "Unknown";
+    console.log("Bot ID:", conn.user.id);
+
+    let _0x4f0d2c = '';
+    const _0x373b87 = Buffer.from("QVVUTyBTVEFUVVMgU0FWRVI=", "base64").toString("utf-8");
+
+    if (_0x4916e3 === 'imageMessage' || _0x4916e3 === "videoMessage") {
+      _0x4f0d2c = `${_0x373b87}\n*mmm*\n\n*🩵Status:* ${_0xcf87a9}\n*🩵Caption:* ${_0x1f85b2.caption || ''}`;
+      await conn.copyNForward(conn.user.id, _0x1f85b2, true);
+      await this.reply(conn.user.id, _0x4f0d2c, _0x1f85b2, { mentions: [_0x55d371] });
+      this.story.push({
+        type: _0x4916e3,
+        quoted: _0x1f85b2,
+        sender: _0x55d371,
+        caption: _0x4f0d2c,
+        buffer: _0x1f85b2,
+      });
+    } else if (_0x4916e3 === 'audioMessage') {
+      _0x4f0d2c = `${_0x373b87}\n\n*🩵Status:* ${_0xcf87a9}`;
+      await conn.copyNForward(conn.user.id, _0x1f85b2, true);
+      await this.reply(conn.user.id, _0x4f0d2c, _0x1f85b2, { mimetype: _0x1f85b2.mimetype });
+      this.story.push({
+        type: _0x4916e3,
+        quoted: _0x1f85b2,
+        sender: _0x55d371,
+        buffer: _0x1f85b2,
+      });
+    } else if (_0x4916e3 === "extendedTextMessage") {
+      _0x4f0d2c = `${_0x373b87}*\n\n${_0x1f85b2.text || ''}`;
+      await this.reply(conn.user.id, _0x4f0d2c, _0x1f85b2, { mentions: [_0x55d371] });
+      this.story.push({
+        type: _0x4916e3,
+        quoted: _0x1f85b2,
+        sender: _0x55d371,
+        message: _0x4f0d2c,
+      });
+    } else if (_0x1f85b2.quoted) {
+      await conn.copyNForward(conn.user.id, _0x1f85b2.quoted, true);
+      await conn.sendMessage(_0x1f85b2.chat, _0x4f0d2c, { quoted: _0x1f85b2 });
+    } else {
+      console.log("Unsupported message type or empty message.");
+      return false;
+    }
+
+    if (process.env.STATUS_REPLY && process.env.STATUS_REPLY.toLowerCase() === "true") {
+      const _0x327943 = process.env.STATUS_MSG || "LOFT XMD 🚀 SUCCESSFULLY VIEWED YOUR STATUS";
+      console.log("Sending status reply to sender:", _0x327943);
+      const _0x154587 = {
+        key: {
+          remoteJid: 'status@broadcast',
+          id: _0x1f85b2.key.id,
+          participant: _0x55d371,
+        },
+        message: _0x1f85b2.message,
+      };
+      await conn.sendMessage(_0x55d371, { text: _0x327943 }, { quoted: _0x154587 });
+    }
+  } catch (_0x48d540) {
+    console.error("Failed to process message:", _0x48d540.message || "Unknown error");
+    if (_0x1f85b2.quoted && _0x1f85b2.quoted.text) {
+      await _0x1f85b2.reply(_0x1f85b2.quoted.text);
+    } else {
+      await this.reply(conn.user.id, "Failed to process message: " + (_0x48d540.message || "Unknown error"), _0x1f85b2, { mentions: [_0x55d371] });
+    }
+  }
+
+  return true;
+}
