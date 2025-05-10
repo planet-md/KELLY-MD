@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     let str = `❤️ *_Hello ${name}, ${greeting}! Welcome to my menu!* 🥳
 ╭═══〘 LOFT XMD 〙═══⊷❍
-┃✰│𝙽𝚊𝚖𝚎: ${global.author}
+┃✰│𝙽𝚊𝚖𝚎: Sir LOFT 
 ┃✰│Uptime: ${uptime}
 ┃✰│Today's Date: ${date}
 ┃✰│Current Time: ${wib}
