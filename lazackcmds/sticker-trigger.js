@@ -19,6 +19,6 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['trigger <@user>']
 handler.tags = ['sticker']
-handler.command = ['trigger', 'triggered', 'ger']
+handler.command = ['sticker', 'triggered', 'ger']
 
 export default handler
