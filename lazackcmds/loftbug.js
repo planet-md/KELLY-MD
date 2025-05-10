@@ -15,8 +15,8 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const time = moment.tz('Africa/TANZANIA').format('HH')
-let wib = moment.tz('Africa/TANZANIA').format('HH:mm:ss')
+const time = moment.tz('Africa/Nairobi').format('HH')
+let wib = moment.tz('Africa/Nairobi').format('HH:mm:ss')
 
 let handler = async (m, { conn, usedPrefix, command }) => {
     let d = new Date(new Date + 3600000)
@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃✰│Network:LTE
 ┃✰│ᴠᴇʀꜱɪᴏɴ: BETA
 ┃✰│ᴏᴡɴᴇʀ : *LOFT*
-┃✰│ɴᴜᴍʙᴇʀ: 252778018545
+┃✰│ɴᴜᴍʙᴇʀ: 255778018545
 ┃✰│HOSTER: *Loft Platform*
 ┃✰│ᴍᴏᴅᴇ: *Unkown*
 ┃✰│ᴘʀᴇғɪx: *Multi-Prefix*
@@ -63,9 +63,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✰│   ©LOFT XMD S24
 ╰──────────────────
-Thank you for choosing LOFT XMD 
-powered by LOFT 
-─═✧✧═─ LOFT XMD ─═✧✧═─`
+Thank you for choosing LOFTXMD 
+powered by Sylivanus❤️
+─═✧✧═─ 𝕊ir Loft ─═✧✧═─`
 
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
@@ -94,7 +94,7 @@ powered by LOFT
                             {
                                  "name": "single_select",
                 "buttonParamsJson": 
-                                "{\"title\":\"TAP TO OPEN\",\"sections\":[{\"title\":\"HERE IS ALL LIST OF MENU\",\"highlight_label\":\"LOFT XMD INC\",\"rows\":[{\"header\":\"\",\"title\":\"💀 Bot Menu\",\"description\":\"The Bot's secret control panel. What's your command, oh great one?\",\"id\":\".botmenu\"},{\"header\":\"\",\"title\":\"📚 Owner Menu\",\"description\":\"The sacred scroll only for the chosen one. Yep, that's you, Boss!\",\"id\":\".ownermenu\"},{\"header\":\"\",\"title\":\"🧑‍🤝‍🧑 Group Menu\",\"description\":\"Group shenanigans central! Unite, chat, conquer!\",\"id\":\".groupmenu\"},{\"header\":\"\",\"title\":\"📥 Download Menu\",\"description\":\"'DL' stands for 'Delicious Loot'. Come grab your goodies!\",\"id\":\".dlmenu\"},{\"header\":\"\",\"title\":\"🎉 Fun Menu\",\"description\":\"The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\",\"id\":\".funmenu\"},{\"header\":\"\",\"title\":\"💰 Economy Menu\",\"description\":\"Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\",\"id\":\".economymenu\"},{\"header\":\"\",\"title\":\"🎮 Game Menu\",\"description\":\"Enter the gaming arena. May the odds be ever in your favor!\",\"id\":\".gamemenu\"},{\"header\":\"\",\"title\":\"🎨 Sticker Menu\",\"description\":\"A rainbow of stickers for your inner artist. Make your chats pop!\",\"id\":\".stickermenu\"},{\"header\":\"\",\"title\":\"🧰 Tool Menu\",\"description\":\"Your handy-dandy toolkit. What's your pick, genius?\",\"id\":\".toolmenu\"},{\"header\":\"\",\"title\":\"🎩 Logo Menu\",\"description\":\"Create a logo that screams YOU. Or whispers. You choose the volume.\",\"id\":\".logomenu\"},{\"header\":\"\",\"title\":\"🌙 NSFW Menu\",\"description\":\"The After Dark menu. But remember, sharing adult secrets must be consent-based.\",\"id\":\".nsfwmenu\"}]}]}" 
+                                "{\"title\":\"TAP TO OPEN\",\"sections\":[{\"title\":\"HERE IS ALL LIST OF MENU\",\"highlight_label\":\"loft INC\",\"rows\":[{\"header\":\"\",\"title\":\"💀 Bot Menu\",\"description\":\"The Bot's secret control panel. What's your command, oh great one?\",\"id\":\".botmenu\"},{\"header\":\"\",\"title\":\"📚 Owner Menu\",\"description\":\"The sacred scroll only for the chosen one. Yep, that's you, Boss!\",\"id\":\".ownermenu\"},{\"header\":\"\",\"title\":\"🧑‍🤝‍🧑 Group Menu\",\"description\":\"Group shenanigans central! Unite, chat, conquer!\",\"id\":\".groupmenu\"},{\"header\":\"\",\"title\":\"📥 Download Menu\",\"description\":\"'DL' stands for 'Delicious Loot'. Come grab your goodies!\",\"id\":\".dlmenu\"},{\"header\":\"\",\"title\":\"🎉 Fun Menu\",\"description\":\"The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\",\"id\":\".funmenu\"},{\"header\":\"\",\"title\":\"💰 Economy Menu\",\"description\":\"Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\",\"id\":\".economymenu\"},{\"header\":\"\",\"title\":\"🎮 Game Menu\",\"description\":\"Enter the gaming arena. May the odds be ever in your favor!\",\"id\":\".gamemenu\"},{\"header\":\"\",\"title\":\"🎨 Sticker Menu\",\"description\":\"A rainbow of stickers for your inner artist. Make your chats pop!\",\"id\":\".stickermenu\"},{\"header\":\"\",\"title\":\"🧰 Tool Menu\",\"description\":\"Your handy-dandy toolkit. What's your pick, genius?\",\"id\":\".toolmenu\"},{\"header\":\"\",\"title\":\"🎩 Logo Menu\",\"description\":\"Create a logo that screams YOU. Or whispers. You choose the volume.\",\"id\":\".logomenu\"},{\"header\":\"\",\"title\":\"🌙 NSFW Menu\",\"description\":\"The After Dark menu. But remember, sharing adult secrets must be consent-based.\",\"id\":\".nsfwmenu\"}]}]}" 
                 },
                             {
                                 "name": "quick_reply",
@@ -121,7 +121,7 @@ powered by LOFT
 
     // Sending audio with image and context info
     await conn.sendMessage(m.chat, {
-        audio: { url: 'https://github.com/SilvaTechB/silva-md-bot/raw/main/media/Menu.mp3' },
+        audio: { url: 'https://github.com/loftxmd23/loft-xmd-s24/raw/main/media/Menu.mp3' },
         image: { url: 'https://i.imgur.com/RDhF6iP.jpeg' }, // Change this to a dynamic thumbnail URL
         caption: str,
         contextInfo: {
@@ -130,7 +130,7 @@ powered by LOFT
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363398106360290@newsletter',
-                newsletterName: 'LOFT XMD 💖',
+                newsletterName: 'LOFT XMD BOT 💖',
                 serverMessageId: 143
             }
         }
@@ -155,7 +155,7 @@ function clockString(ms) {
 }
 
 function ucapan() {
-    const time = moment.tz('Africa/Tanzania').format('HH')
+    const time = moment.tz('Africa/Nairobi').format('HH')
     let res = "happy early in the day☀️"
     if (time >= 4) {
         res = "Good Morning 🥱"
