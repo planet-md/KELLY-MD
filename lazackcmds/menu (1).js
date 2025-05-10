@@ -154,7 +154,7 @@ ${readMore}
             isForwarded: true,
             forwardingScore: 999,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '@newsletter', // Replace with actual channel JID
+              newsletterJid: '120363398106360290@newsletter', // Replace with actual channel JID
               newsletterName: 'LOFT', // Replace with actual channel name
               serverMessageId: -1,
             },
