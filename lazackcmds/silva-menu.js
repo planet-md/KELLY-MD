@@ -105,7 +105,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     // Sending audio with image and context info
     await conn.sendMessage(m.chat, {
-        audio: { url: 'https://github.com/SilvaTechB/silva-md-bot/raw/main/media/Menu.mp3' },
+        audio: { url: 'https://github.com/loftxmd23/loft-xmd-s24/raw/Botify/Mickey.mp3' },
         image: { url: 'https://i.imgur.com/RDhF6iP.jpeg' }, // Change this to a dynamic thumbnail URL
         caption: str,
         contextInfo: {
@@ -113,7 +113,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363200367779016@newsletter',
+                newsletterJid: '120363398106360290@newsletter',
                 newsletterName: 'LOFT XMD',
                 serverMessageId: 143
             }
