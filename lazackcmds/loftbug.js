@@ -50,15 +50,15 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃✰│Network:LTE
 ┃✰│ᴠᴇʀꜱɪᴏɴ: BETA
 ┃✰│ᴏᴡɴᴇʀ : *LOFT*
-┃✰│ɴᴜᴍʙᴇʀ: 254743706010
-┃✰│HOSTER: *Silva Platform*
+┃✰│ɴᴜᴍʙᴇʀ: 252778018545
+┃✰│HOSTER: *Loft Platform*
 ┃✰│ᴍᴏᴅᴇ: *Unkown*
 ┃✰│ᴘʀᴇғɪx: *Multi-Prefix*
 ┃✰│Uptime: ${uptime}
 ┃✰│Today's Date: ${date}
 ┃✰│Current Time: ${wib}
 ┃✰│──────────●●►
-┃✰│𝕏 https://x.com/@silva_african
+┃✰│𝕏 https://x.com/@loft_african
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✰│   ©LOFT XMD S24
@@ -129,7 +129,7 @@ powered by LOFT
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '@newsletter',
+                newsletterJid: '120363398106360290@newsletter',
                 newsletterName: 'LOFT XMD 💖',
                 serverMessageId: 143
             }
@@ -155,7 +155,7 @@ function clockString(ms) {
 }
 
 function ucapan() {
-    const time = moment.tz('Africa/Nairobi').format('HH')
+    const time = moment.tz('Africa/Tanzania').format('HH')
     let res = "happy early in the day☀️"
     if (time >= 4) {
         res = "Good Morning 🥱"
