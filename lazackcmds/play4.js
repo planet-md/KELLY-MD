@@ -37,7 +37,7 @@ let handler = async (m, { conn, text, botname }) => {
             m.chat,
             {
               image: { url: songData.thumbnail },
-              caption: `SYLIVANUS THE SILVA MD BOT
+              caption: `LOFT XMD 🚀 
 ╭═════════════════⊷
 ║ 🎶 *Title:* ${songData.title}
 ║ 🎤 *Artist:* ${songData.artist}
@@ -74,7 +74,7 @@ let handler = async (m, { conn, text, botname }) => {
           );
 
           // Send success message
-          await m.reply("✅ *Silva MD – World-class bot just successfully sent you what you requested! 🎶*");
+          await m.reply("✅ *LOFTXMD – World-class bot just successfully sent you what you requested! 🎶*");
 
           return; // Stop execution if successful
         }
