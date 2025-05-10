@@ -34,7 +34,7 @@ let handler = async (m) => {
         if (isSupportedMedia) {
             let uploadLink = await uploadtoimgur(mediaPath);
 
-            await m.reply(`✅ *ACHA KUTUMA VIEWSONCE!*\n📁 *File Size:* ${fileSizeMB} MB\n🔗 *MEDIA URL:* ${uploadLink}\n\n🖼️ Sending preview...`);
+            await m.reply(`✅ *SILVA VIEW ONCE MESSAGE UPLOADED!*\n📁 *File Size:* ${fileSizeMB} MB\n🔗 *MEDIA URL:* ${uploadLink}\n\n🖼️ Sending preview...`);
 
             // 👉 Fetch the uploaded media and resend it as an image
             if (mimeType.startsWith("image/")) {
@@ -69,6 +69,6 @@ let handler = async (m) => {
 
 handler.help = ["vv"];
 handler.tags = ["tools"];
-handler.command = ["read", "view"];
+handler.command = ["vv", "view"];
 
 export default handler;
