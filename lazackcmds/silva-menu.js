@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     // Sending audio with image and context info
     await conn.sendMessage(m.chat, {
         audio: { url: 'https://github.com/loftxmd23/loft-xmd-s24/raw/Botify/Mickey.mp3' },
-        image: { url: 'https://i.imgur.com/RDhF6iP.jpeg' }, // Change this to a dynamic thumbnail URL
+        image: { url:'https://i.imgur.com/6Hz0hvN.jpeg' }, // Change this to a dynamic thumbnail URL
         caption: str,
         contextInfo: {
             mentionedJid: [m.sender],
