@@ -43,26 +43,30 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 
     let str = `❤️ *_Hello ${name}, ${greeting}! Welcome to my menu!* 🥳
-╭═══〘 LOFT XMD〙═══⊷❍
-┃✰│━━━❮❮  🤍  ❯❯━━━━━━
+╭═══〘 𝑺𝑰𝑳𝑽𝑨 𝑩𝑶𝑻 〙═══⊷❍
+┃✰│━━━❮❮ CMD LINE ❯❯━━━━━━
 ┃✰│𝙽𝚊𝚖𝚎: ${global.author}
-┃✰│𝚃𝚘𝚝𝚊𝚕: 2299+ Features
+┃✰│𝚃𝚘𝚝𝚊𝚕: 700+ Features
 ┃✰│Network:LTE
-┃✰│ᴠᴇʀꜱɪᴏɴ: HDD
-┃✰│ᴏᴡɴᴇʀ : *SIR LOFT*
-┃✰│ɴᴜᴍʙᴇʀ: 255778018545
-┃✰│HOSTER: *LOFT DEV*
+┃✰│ᴠᴇʀꜱɪᴏɴ: BETA
+┃✰│ᴏᴡɴᴇʀ : *𝕊𝕀𝕃𝕍𝔸*
+┃✰│ɴᴜᴍʙᴇʀ: 254743706010
+┃✰│HOSTER: *Silva Platform*
 ┃✰│ᴍᴏᴅᴇ: *Unkown*
 ┃✰│ᴘʀᴇғɪx: *Multi-Prefix*
 ┃✰│Uptime: ${uptime}
 ┃✰│Today's Date: ${date}
 ┃✰│Current Time: ${wib}
 ┃✰│──────────●●►
-┃✰│     COPYRIGHT 
+┃✰│𝕏 https://x.com/@silva_african
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✰│   ©LOFT XMD TZ
+┃✰│   ©𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓
 ╰──────────────────
+Thank you for choosing silva md
+powered by Sylivanus❤️
+─═✧✧═─ 𝕊𝕀𝕃𝕍𝔸 𝔹𝕆𝕋 ─═✧✧═─`
+
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
             message: {
@@ -79,7 +83,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                     }),
                     header: proto.Message.InteractiveMessage.Header.create({
                         ...(await prepareWAMessageMedia({
-                            image: { url: 'https://i.ibb.co/84GYr6yq/b848e753-ec79-471f-b143-0f7ebd8e66f2.jpg' }
+                            image: { url: 'https://files.catbox.moe/8324jm.jpg' }
                         }, { upload: conn.waUploadToServer })),
                         title: null,
                         subtitle: null,
@@ -90,11 +94,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                             {
                                  "name": "single_select",
                 "buttonParamsJson": 
-                                "{\"title\":\"TAP TO OPEN\",\"sections\":[{\"title\":\"HERE IS ALL LIST OF MENU\",\"highlight_label\":\"LOFT\",\"rows\":[{\"header\":\"\",\"title\":\"💀 Bot Menu\",\"description\":\"The Bot's secret control panel. What's your command, oh great one?\",\"id\":\".botmenu\"},{\"header\":\"\",\"title\":\"📚 Owner Menu\",\"description\":\"The sacred scroll only for the chosen one. Yep, that's you, Boss!\",\"id\":\".ownermenu\"},{\"header\":\"\",\"title\":\"🧑‍🤝‍🧑 Group Menu\",\"description\":\"Group shenanigans central! Unite, chat, conquer!\",\"id\":\".groupmenu\"},{\"header\":\"\",\"title\":\"📥 Download Menu\",\"description\":\"'DL' stands for 'Delicious Loot'. Come grab your goodies!\",\"id\":\".dlmenu\"},{\"header\":\"\",\"title\":\"🎉 Fun Menu\",\"description\":\"The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\",\"id\":\".funmenu\"},{\"header\":\"\",\"title\":\"💰 Economy Menu\",\"description\":\"Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\",\"id\":\".economymenu\"},{\"header\":\"\",\"title\":\"🎮 Game Menu\",\"description\":\"Enter the gaming arena. May the odds be ever in your favor!\",\"id\":\".gamemenu\"},{\"header\":\"\",\"title\":\"🎨 Sticker Menu\",\"description\":\"A rainbow of stickers for your inner artist. Make your chats pop!\",\"id\":\".stickermenu\"},{\"header\":\"\",\"title\":\"🧰 Tool Menu\",\"description\":\"Your handy-dandy toolkit. What's your pick, genius?\",\"id\":\".toolmenu\"},{\"header\":\"\",\"title\":\"🎩 Logo Menu\",\"description\":\"Create a logo that screams YOU. Or whispers. You choose the volume.\",\"id\":\".logomenu\"},{\"header\":\"\",\"title\":\"🌙 NSFW Menu\",\"description\":\"The After Dark menu. But remember, sharing adult secrets must be consent-based.\",\"id\":\".nsfwmenu\"}]}]}" 
+                                "{\"title\":\"TAP TO OPEN\",\"sections\":[{\"title\":\"HERE IS ALL LIST OF MENU\",\"highlight_label\":\"SILVA TECH INC\",\"rows\":[{\"header\":\"\",\"title\":\"💀 Bot Menu\",\"description\":\"The Bot's secret control panel. What's your command, oh great one?\",\"id\":\".botmenu\"},{\"header\":\"\",\"title\":\"📚 Owner Menu\",\"description\":\"The sacred scroll only for the chosen one. Yep, that's you, Boss!\",\"id\":\".ownermenu\"},{\"header\":\"\",\"title\":\"🧑‍🤝‍🧑 Group Menu\",\"description\":\"Group shenanigans central! Unite, chat, conquer!\",\"id\":\".groupmenu\"},{\"header\":\"\",\"title\":\"📥 Download Menu\",\"description\":\"'DL' stands for 'Delicious Loot'. Come grab your goodies!\",\"id\":\".dlmenu\"},{\"header\":\"\",\"title\":\"🎉 Fun Menu\",\"description\":\"The bot's party hat. Games, jokes and instant ROFLs. Let's get this party started!\",\"id\":\".funmenu\"},{\"header\":\"\",\"title\":\"💰 Economy Menu\",\"description\":\"Bling bling! Your personal vault of virtual economy. Spend or save? Choose wisely!\",\"id\":\".economymenu\"},{\"header\":\"\",\"title\":\"🎮 Game Menu\",\"description\":\"Enter the gaming arena. May the odds be ever in your favor!\",\"id\":\".gamemenu\"},{\"header\":\"\",\"title\":\"🎨 Sticker Menu\",\"description\":\"A rainbow of stickers for your inner artist. Make your chats pop!\",\"id\":\".stickermenu\"},{\"header\":\"\",\"title\":\"🧰 Tool Menu\",\"description\":\"Your handy-dandy toolkit. What's your pick, genius?\",\"id\":\".toolmenu\"},{\"header\":\"\",\"title\":\"🎩 Logo Menu\",\"description\":\"Create a logo that screams YOU. Or whispers. You choose the volume.\",\"id\":\".logomenu\"},{\"header\":\"\",\"title\":\"🌙 NSFW Menu\",\"description\":\"The After Dark menu. But remember, sharing adult secrets must be consent-based.\",\"id\":\".nsfwmenu\"}]}]}" 
                 },
                             {
                                 "name": "quick_reply",
-                                "buttonParamsJson": "{\"display_text\":\"Main Menu 💖☠️\",\"id\":\".core\"}"
+                                "buttonParamsJson": "{\"display_text\":\"Main Menu 💖☠️\",\"id\":\".main\"}"
                             },
                              {
                                 "name": "quick_reply",
@@ -106,7 +110,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                             },
                             {
                                 "name": "cta_url",
-                                "buttonParamsJson": "{\"display_text\":\"BOT SC 🎉\",\"url\":\"https://github.com/LOFTXMD23/LOFT-XMD-S24\",\"merchant_url\":\"https://github.com/loftxmd23\"}"
+                                "buttonParamsJson": "{\"display_text\":\"BOT SC 🎉\",\"url\":\"https://github.com/SilvaTechB/silva-md-bot\",\"merchant_url\":\"https://github.com/SilvaTechB\"}"
                             }
                         ]
                     })
@@ -117,16 +121,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     // Sending audio with image and context info
     await conn.sendMessage(m.chat, {
-        audio: { url: 'https://cdn.jsdelivr.net/gh/LOFTXMD23/loft-xmd-s24@main/Botify/Mickey.mp3' },
-        image: { url:'https://i.imgur.com/6Hz0hvN.jpeg' }, // Change this to a dynamic thumbnail URL
+        audio: { url: 'https://github.com/SilvaTechB/silva-md-bot/raw/main/media/Menu.mp3' },
+        image: { url: 'https://i.imgur.com/RDhF6iP.jpeg' }, // Change this to a dynamic thumbnail URL
         caption: str,
         contextInfo: {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363398106360290@newsletter',
-                newsletterName: 'LOFT XMD',
+                newsletterJid: '120363200367779016@newsletter',
+                newsletterName: 'SILVA MD BOT 💖',
                 serverMessageId: 143
             }
         }
