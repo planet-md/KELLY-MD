@@ -76,8 +76,8 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = '𝙡𝙖𝙯𝙖𝙘𝙠'
-global.author = '𝙡𝙖𝙯𝙖𝙘𝙠'
+global.packname = 'loft'
+global.author = 'silva'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
