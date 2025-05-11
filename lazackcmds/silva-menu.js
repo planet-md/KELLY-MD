@@ -43,29 +43,29 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 
     let str = `❤️ *_Hello ${name}, ${greeting}! Welcome to my menu!* 🥳
-╭═══〘 𝑺𝑰𝑳𝑽𝑨 𝑩𝑶𝑻 〙═══⊷❍
-┃✰│━━━❮❮ CMD LINE ❯❯━━━━━━
+╭═══〘 LOFT XMD 〙═══⊷❍
+┃✰│━━━❮❮ XMD LINE ❯❯━━━━━━
 ┃✰│𝙽𝚊𝚖𝚎: ${global.author}
 ┃✰│𝚃𝚘𝚝𝚊𝚕: 700+ Features
 ┃✰│Network:LTE
-┃✰│ᴠᴇʀꜱɪᴏɴ: BETA
-┃✰│ᴏᴡɴᴇʀ : *𝕊𝕀𝕃𝕍𝔸*
-┃✰│ɴᴜᴍʙᴇʀ: 254743706010
-┃✰│HOSTER: *Silva Platform*
+┃✰│ᴠᴇʀꜱɪᴏɴ: PRO
+┃✰│ᴏᴡɴᴇʀ : *LOFT*
+┃✰│ɴᴜᴍʙᴇʀ: 255778018545
+┃✰│HOSTER: *LOFT WORLD*
 ┃✰│ᴍᴏᴅᴇ: *Unkown*
 ┃✰│ᴘʀᴇғɪx: *Multi-Prefix*
 ┃✰│Uptime: ${uptime}
 ┃✰│Today's Date: ${date}
 ┃✰│Current Time: ${wib}
 ┃✰│──────────●●►
-┃✰│𝕏 https://x.com/@silva_african
+┃✰│𝕏 https://x.com/@LOFTXMMD
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✰│   ©𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓
+┃✰│   ©LOFT XMD TZ
 ╰──────────────────
-Thank you for choosing silva md
-powered by Sylivanus❤️
-─═✧✧═─ 𝕊𝕀𝕃𝕍𝔸 𝔹𝕆𝕋 ─═✧✧═─`
+Thank you for choosing LOFT XMD
+powered by Sir Loft❤️
+─═✧✧═─ LOFT XMD ─═✧✧═─`
 
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
