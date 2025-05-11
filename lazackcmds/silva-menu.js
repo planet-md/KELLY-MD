@@ -94,7 +94,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
                 },
                             {
                                 "name": "quick_reply",
-                                "buttonParamsJson": "{\"display_text\":\"Main Menu 💖☠️\",\"id\":\".main\"}"
+                                "buttonParamsJson": "{\"display_text\":\"Main Menu 💖☠️\",\"id\":\".core\"}"
                             },
                              {
                                 "name": "quick_reply",
