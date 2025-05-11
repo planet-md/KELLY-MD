@@ -109,6 +109,10 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ${readMore}
 `
 
+    // Sending audio with image and context info
+    await conn.sendMessage(m.chat, {
+        audio: { url: 'https://github.com/loftxmd23/loft-xmd-s24/raw/Botify/Mickey.mp3' },
+
   conn.sendMessage(m.chat, {
     image: { url: pp },
     caption: menu,
