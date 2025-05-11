@@ -44,7 +44,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
     let str = `❤️ *_Hello ${name}, ${greeting}! Welcome to my menu!* 🥳
 ╭═══〘 LOFT XMD〙═══⊷❍
-┃✰│━━━❮❮ CMD LINE ❯❯━━━━━━
+┃✰│━━━❮❮  🤍  ❯❯━━━━━━
 ┃✰│𝙽𝚊𝚖𝚎: ${global.author}
 ┃✰│𝚃𝚘𝚝𝚊𝚕: 2299+ Features
 ┃✰│Network:LTE
