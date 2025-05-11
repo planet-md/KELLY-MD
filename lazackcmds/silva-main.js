@@ -40,7 +40,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 │ 🖼️ ${usedPrefix}stickermenu
 │ 🔧 ${usedPrefix}toolmenu
 │ 🖌️ ${usedPrefix}logomenu
-│ 🍑 ${usedPrefix}nsfwmenu
+│ 🕌 ${usedPrefix}quran
 ╰──────────────
 
 🧠 *QUICK COMMANDS*
