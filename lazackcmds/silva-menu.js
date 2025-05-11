@@ -43,14 +43,26 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 
     let str = `❤️ *_Hello ${name}, ${greeting}! Welcome to my menu!* 🥳
-╭═══〘 LOFT XMD 〙═══⊷❍
-┃✰│𝙽𝚊𝚖𝚎: Sir LOFT 
+╭═══〘 LOFT XMD〙═══⊷❍
+┃✰│━━━❮❮ CMD LINE ❯❯━━━━━━
+┃✰│𝙽𝚊𝚖𝚎: ${global.author}
+┃✰│𝚃𝚘𝚝𝚊𝚕: 2299+ Features
+┃✰│Network:LTE
+┃✰│ᴠᴇʀꜱɪᴏɴ: HDD
+┃✰│ᴏᴡɴᴇʀ : *SIR LOFT*
+┃✰│ɴᴜᴍʙᴇʀ: 255778018545
+┃✰│HOSTER: *LOFT DEV*
+┃✰│ᴍᴏᴅᴇ: *Unkown*
+┃✰│ᴘʀᴇғɪx: *Multi-Prefix*
 ┃✰│Uptime: ${uptime}
 ┃✰│Today's Date: ${date}
 ┃✰│Current Time: ${wib}
+┃✰│──────────●●►
+┃✰│     COPYRIGHT 
+┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
+┃✰│   ▎▍▌▌▉▏▎▌▉▐▏▌▎
+┃✰│   ©LOFT XMD TZ
 ╰──────────────────
-─═✧✧═─  ─═✧✧═─`
-
     let msg = generateWAMessageFromContent(m.chat, {
         viewOnceMessage: {
             message: {
