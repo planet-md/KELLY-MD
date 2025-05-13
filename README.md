@@ -44,7 +44,7 @@
 
   **DEPLOY NOW**
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/loftxmd23/LOFT-XMD-S24">
   <img title="DEPLOY ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-blue?style=for-the-badge&logo=heroku" width="230" height="38.100"/>
 </a>
 
