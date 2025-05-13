@@ -133,6 +133,6 @@ function clockString(ms) {
 
 handler.help = ['main']
 handler.tags = ['menu']
-handler.command = ['menu2']
+handler.command = ['menu']
 
 export default handler
