@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'LOFTXMD',
+        title: 'LOFT XMD POWERFUL WHATSAPP BOT',
         body: 'loft xmd',
         thumbnailUrl: img,
         sourceUrl: 'https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610',
