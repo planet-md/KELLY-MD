@@ -8,8 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let date = moment.tz('Africa/Nairobi').format('dddd, MMMM Do YYYY')
   let time = moment.tz('Africa/Nairobi').format('hh:mm A')
   let uptime = process.uptime() * 1000
-  let muptime = await promisify(setTimeout)(0).then(() => process.uptime() * 1000)
-
+  let muptime = await promisify(setTimeout)(0).then(() => process.uptime() * 1000
   let mode = global.opts['self'] ? '🌙 Private' : '🌞 Public'
   let ping = performance.now()
   let pp = './Botify/lazack.jpg' // 🖼 Replace with your custom image from silva tech inc library 
