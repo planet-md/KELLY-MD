@@ -107,7 +107,19 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 
 ${readMore}
-`
+'
+      },
+    },
+  }
+  let doc = {
+    audio: {
+      url: vn,
+    },
+    mimetype: 'audio/mpeg',
+    ptt: true,
+    waveform: [100, 0, 100, 0, 100, 0, 100],
+    fileName: 'lazack',
+
   conn.sendMessage(m.chat, {
     image: { url: pp },
     caption: menu,
