@@ -109,7 +109,7 @@ powered by Sir Loft❤️
 
     // Sending audio with image and context info
     await conn.sendMessage(m.chat, {
-        audio: { url: 'https://github.com/SilvaTechB/silva-md-bot/raw/main/media/Menu.mp3' },
+        audio: { url: 'https://cdn.jsdelivr.net/gh/LOFTXMD23/loft-xmd-s24@main/Botify/Mickey.mp3' },
         image: { url: 'https://files.catbox.moe/e4e6wy.jpeg' }, // Change this to a dynamic thumbnail URL
         caption: str,
         contextInfo: {
