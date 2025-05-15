@@ -13,15 +13,15 @@ let handler = async (m, { text, conn }) => {
     return await conn.sendMessage(
       m.chat,
       {
-        text: `${replyText}\n\n*~ Powered by LOFTXMD Al*`,
+        text: `${replyText}\n\n*~ Powered by Sir Loft*`,
         image: { url: 'https://files.catbox.moe/8324jm.jpg' },
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363419996770740@newsletter',
-            newsletterName: 'LOFTXMD ',
+            newsletterJid: '120363398106360290@newsletter',
+            newsletterName: 'LOFT XMD ',
             serverMessageId: 143,
           },
         },
@@ -60,6 +60,6 @@ let handler = async (m, { text, conn }) => {
 
 handler.help = ['siz', 'deepseek', 'ds', 'deep'];
 handler.tags = ['ai', 'tools'];
-handler.command = ['prince', 'deepseek', 'bot', 'deep'];
+handler.command = ['loft', 'bot', 'subra'];
 
 export default handler;
