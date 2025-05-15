@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let readMore = more.repeat(900)
 
   let menu = `
-╭━━━[ *${name}* *MD* ]
+╭━━━[ *LOFT* *XMD* ]
 ┃📅 Date: *${date}*
 ┃⏰ Time: *${time}*
 ┃📡 Ping: *${(performance.now() - ping).toFixed(2)} ms*
@@ -186,7 +186,7 @@ ${readMore}
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363200367779016@newsletter',
+        newsletterJid: '120363398106360290@newsletter',
         newsletterName: ' 🥰 💖',
         serverMessageId: 143
       }
