@@ -72,7 +72,7 @@ const MessageBug = async (target) => {
           address: "🌍 Unexpected Location Bug",
           name: "Mickey device Test",
         },
-        caption: "🌀 Mickey Bug Sent! 🚨",
+        caption: "🌀 😈 Bug Sent! 🚨",
       },
       { quoted: null } // Optional: Reference message
     );
