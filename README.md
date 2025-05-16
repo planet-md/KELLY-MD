@@ -3,6 +3,8 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Jersey+20+Charted&size=30&pause=1000&color=0DFF00&width=435&lines=SAFE+TO+HEROKU+BOT+MADE+BY+LOFT+XMD" alt="Typing SVG" /></a>
 </p>
 
+![Screenshot_20250508-001636](https://github.com/user-attachments/assets/92a80c91-5e8a-4fbe-b5aa-24a9652f0c4f)
+
 
 
  **GET SESSION ID**
