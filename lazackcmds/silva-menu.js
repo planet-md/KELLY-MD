@@ -98,7 +98,7 @@ powered by Sir Loft❤️
                             },
                             {
                                 "name": "cta_url",
-                                "buttonParamsJson": "{\"display_text\":\"BOT SC 🎉\",\"url\":\"https://github.com/SilvaTechB/silva-md-bot\",\"merchant_url\":\"https://github.com/SilvaTechB\"}"
+                                "buttonParamsJson": "{\"display_text\":\"BOT SC 🎉\",\"url\":\"https://github.com/loftxmd23/loft-xmd-s24\",\"merchant_url\":\"https://github.com/loftxmd23\"}"
                             }
                         ]
                     })
