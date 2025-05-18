@@ -1,8 +1,8 @@
    # <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> &nbsp;  LOFT-XMD-S24 &nbsp; <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
 
 
-
-![lazack](https://github.com/user-attachments/assets/c53ab6af-2fe7-43b6-94a8-da8c31429f69)
+<img src="https://user-images.githubusercontent.com/74038190/212747903-e9bdf048-2dc8-41f9-b973-0e72ff07bfba.gif" width="500">
+<br><br>
 
 
 # 🚀 **FORK & STAR THE REPO**
