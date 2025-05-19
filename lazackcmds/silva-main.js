@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let readMore = more.repeat(900)
 
   let menu = `
-╭━━━[ *LOFT* *XMD* ]
+╭━━━[ *KELLY* *MD* ]
 ┃📅 Date: *${date}*
 ┃⏰ Time: *${time}*
 ┃📡 Ping: *${(performance.now() - ping).toFixed(2)} ms*
