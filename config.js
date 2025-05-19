@@ -7,7 +7,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "255654003502"
+const ownervb = process.env.OWNERS || "255697929318"
 
 
 const ownerlist = ownervb.split(';');
@@ -24,9 +24,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['255778018545', '255612130873']
-global.prems = ['255778018545', '255612130873', '255612130873']
-global.allowed = ['255778018545', '255612130873']
+global.mods = ['255697929318', '+255 697929318']
+global.prems = ['255697929318', '255697929318', '255697929318']
+global.allowed = ['255697929318', '255697929318']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -76,8 +76,8 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'loft'
-global.author = 'silva'
+global.packname = 'prince'
+global.author = 'prince'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
