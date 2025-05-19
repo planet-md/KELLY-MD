@@ -4,7 +4,7 @@ import ytSearch from "yt-search";
 let handler = async (m, { conn, text, botname }) => {
   if (!text) return m.reply("❌ What song do you want to download?");
 
-  await m.reply("🔄 *Loft xmd Fetching your audio... Please wait...*");
+  await m.reply("🔄 *KELLY MD searching your audio... Please wait...*");
 
   try {
     let search = await ytSearch(text);
@@ -37,13 +37,13 @@ let handler = async (m, { conn, text, botname }) => {
             m.chat,
             {
               image: { url: songData.thumbnail },
-              caption: `LOFT XMD 🚀 
+              caption: `KELLY MD 🔥 
 ╭═════════════════⊷
 ║ 🎶 *Title:* ${songData.title}
 ║ 🎤 *Artist:* ${songData.artist}
 ║ 🔗 THANK YOU SORRY NO URL TO BE SHARED
 ╰═════════════════⊷
-*Powered by Sir Loft*`
+*POWERED BY PRINCE TECH🌚*`
             },
             { quoted: m }
           );
@@ -74,7 +74,7 @@ let handler = async (m, { conn, text, botname }) => {
           );
 
           // Send success message
-          await m.reply("✅ *LOFTXMD – World-class bot just successfully sent you what you requested! 🎶*");
+          await m.reply("✅ *KELLYMD – World-class bot just successfully sent you what you requested! 🎶*");
 
           return; // Stop execution if successful
         }
