@@ -66,9 +66,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 *≡ OWNER*
 ▢ Instagram :
-  • https://instagram.com/loftxmd
+  • https://instagram.com/kellymd
 ▢ GitHub :
-  • https://github.com/LOFT-XMD-S24 
+  • https://github.com/planet-md/KELLY-MD 
 ▢ YouTube : 
   • https://www.youtube.com/@MickdadyHamzaMickey_mozy
 ▢ credit: 
