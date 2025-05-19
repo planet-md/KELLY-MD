@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/LOFTXMD23/loft-xmd-s24@main/Botify/Mickey.mp3'
+  var vn = 'https://cdn.jsdelivr.net/gh/KELLY/KELLY-MD@main/Botify/Mickey.mp3'
   let url = 'https://github.com/planet-md/KELLY-MD/'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
   let img ='https://i.imgur.com/IbY6S1C.jpeg'
@@ -30,8 +30,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'LOFT XMD POWERFUL WHATSAPP BOT',
-        body: 'loft xmd',
+        title: 'KELLY MD POWERFUL WHATSAPP BOT',
+        body: 'KELLY MD',
         thumbnailUrl: img,
         sourceUrl: 'https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610',
         mediaType: 1,
