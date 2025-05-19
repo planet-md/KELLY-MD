@@ -43,16 +43,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 
     let str = `❤️ *_Hello ${name}, ${greeting}! Welcome to my menu!* 🥳
-╭═══〘 LOFT XMD〙═══⊷❍
+╭═══〘 KELLY MD〙═══⊷❍
 ┃✰│━━━❮❮ CMD LINE ❯❯━━━━━━
-┃✰│𝙽𝚊𝚖𝚎: LOFT XMD
+┃✰│𝙽𝚊𝚖𝚎: KELLY MD
 ┃✰│𝚃𝚘𝚝𝚊𝚕: 700+ Features
 ┃✰│Uptime: ${uptime}
 ┃✰│Today's Date: ${date}
 ┃✰│Current Time: ${wib}
 ╰──────────────────
 Thank you for choosing loft xmd
-powered by Sir Loft❤️
+powered by Prince tech👿❤️
 ─═✧✧═─  ─═✧✧═─`
 
     let msg = generateWAMessageFromContent(m.chat, {
@@ -118,7 +118,7 @@ powered by Sir Loft❤️
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363398106360290@newsletter',
-                newsletterName: 'LOFT XMD',
+                newsletterName: 'KELLY MD',
                 serverMessageId: 143
             }
         }
