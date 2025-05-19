@@ -1,6 +1,6 @@
 
 {
-    "name": "LOFT XMD s24",
+    "name": "KELLY MD s24",
     "version": "2.1.0",
     "description": "Advanced WhatsApp",
     "main": "LazackEngage.js",
@@ -29,16 +29,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/LOFTXMD23/Loft-xmd-s24-Device",
+    "homepage": "https://github.com/planet-md/KELLY-MD-Device",
     "author": {
         "name": "LOFT"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/LOFTXMD23/Loft-xmd-s24-Device.git"
+        "url": "git+https://github.com/planet-md/KELLY-MD-Device.git"
     },
     "bugs": {
-        "url": "https://github.com/LOFTXMD23/Loft-xmd-s24-Device/issues"
+        "url": "https://github.com/planet-md/KELLY-MD-s24-Device/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
