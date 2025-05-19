@@ -48,7 +48,7 @@
  📱**CONTACT LOFT-XMD TEAM**
 <p align="center">
   <a href=""> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
-  <a href="https://wa.me/qr/V2LOTVUSN252J1"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+  <a href="https://wa.me/255778018545"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a 
 
 
