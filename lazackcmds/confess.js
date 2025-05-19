@@ -30,7 +30,7 @@ let handler = async (m, { conn, args, text, command }) => {
         serverMessageId: 143,
       },
       externalAdReply: {
-        title: "LOFT-XMD-S24 CONFESS",
+        title: "KELLY MD CONFESS",
         body: "Tap to reply anonymously",
         thumbnailUrl: "https://i.imgur.com/bf5Db5v.jpeg",
         sourceUrl: `https://${replyLink}`,
