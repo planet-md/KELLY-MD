@@ -11,7 +11,7 @@
 
       
 </h1>
-
+**HOW TO SET KELLY MD**
 <!-- Typing Animation -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=25&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=CREATED+BY+PRINCE;PRINCE+TECH;POWERED+BY+PRINCE;FAST++SAFE+RELIABLE" alt="Typing animation for features" />
