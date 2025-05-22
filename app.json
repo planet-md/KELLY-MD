@@ -1,71 +1,96 @@
 {
-  "name": "KELLY MD ",
-  "description": " WHASSAP BOT MADE BY LOFT XMD.",
+  "name": "KELLY 𝐌𝐃 ",
+  "description": " with great power comes with great responsibilities. follow the deployment process below..",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/planet-md/KELLY-MD-Device",
+  "repository": "https://github.com/planet-md/KELLY-MD",
   "stack": "container",
   "env": {
     "OWNERS": {
       "description": "owner numbers",
       "required": true,
-      "value": "255697929318"
+      "value": "255614545735; KELLY MD"
     },
     "BOTNAME": {
-      "description": "Give your bot a name",
+      "description": "Give your BOT a name",
       "required": true,
-      "value": "KELLY-𝐃𝐄𝐕𝐈𝐂𝐄"
+      "value": "KELLY-MD©®"
     },
-    "DATABASE_URL": {
-      "description": "your mongodb database url",
-      "required": false,
+    "SESSION_ID": {
+      "description": "your session id. get session here https://silva-session-selector.vercel.app/",
+      "required": true,
       "value": ""
     },
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "private"
-    },
-    "SESSION_ID": {
-      "description": "get you're session through bot website",
-      "required": true,
-      "value": ""
+      "value": "public"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
-    },
-     "API KEY": {
-      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
       "required": true,
-      "value": ""
+      "value": "."
     },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
-    },
-    "STATUS VIEW": {
+    "statusview": {
       "description": "make it true if you want bot to view status",
-      "required": false,
+      "required": true,
       "value": "true"
     },
-    "AUTOREAD": {
-      "description": "make it true if you want bot to read messages",
+    "autoRead": {
+      "description": "make it true or false if you want bot to read messages leave it blank if you don't want it to read messages",
       "required": false,
       "value": ""
+      },
+    "WELCOME_MSG": {
+      "description": "make it true or false if you want bot to Send welcome message when someone joins a group",
+      "required": false,
+      "value": "true"
+      },
+    "GOODBYE_MSG": {
+      "description": "make it true or false if you want bot to Send goodbye message when someone leaves a group",
+      "required": false,
+      "value": "true"
+      },
+    "ANTILINK": {
+      "description": "make it true or false if you want bot to delete group links sent in groups. of you are admin",
+      "required": false,
+      "value": "true"
+      },
+    "AUTO_RECORDING": {
+      "description": "make it true or false. true to activate false to deactivate",
+      "required": false,
+      "value": "true"
+       },
+    "AUTO_TYPING": {
+      "description": "make it true or false. true to activate false to deactivate",
+      "required": false,
+      "value": "true"
+       },
+    "AUTO_STATUS_LIKE": {
+      "description": "make it true or false. true to activate false to deactivate",
+      "required": true,
+      "value": "true"
+       },
+    "AUTO_STATUS_LIKE_EMOJI": {
+      "description": "customize to any emoji you need 💚",
+      "required": false,
+      "value": "🦋"
+       },
+    "STATUS_REPLY": {
+      "description": "make it true or false. true to activate false to deactivate",
+      "required": true,
+      "value": "false"
+       },
+    "STATUS_MSG": {
+      "description": "custmize with your message",
+      "required": false,
+      "value": "LOFT XMD SUCCESSFULLY VIEWED YOUR STATUS 💖💚"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
-    },
-     "REMOVEBG_KEY": {
-      "description": "your RemoveBg api key",
-      "required": false,
-      "value": ""
+      "value": "true"
     }
     },
     "buildpacks": [
